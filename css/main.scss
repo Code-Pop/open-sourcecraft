@@ -3,4 +3,6 @@
 
 @charset "utf-8";
 
-@import '../vendors/normalize-scss/sass/normalize';
+@import 'normalize';
+@import 'settings';
+@import 'base';
