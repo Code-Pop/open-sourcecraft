@@ -4,6 +4,11 @@
 		<span class="sr-only">{{ site.title }}</span>
 	</a>
 	<nav>
-
+    {% assign nav_order = site.pages | sort: 'order' %}
+    {% for page in nav_order %}
+      {% unless page.url == site.baseurl %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      {% endunless %}
+    {% endfor %}
   </nav>
 </header>
