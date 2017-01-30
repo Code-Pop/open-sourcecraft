@@ -9,12 +9,15 @@ $font-size-base: 18px;
 // $font-size-small: $font-size-base * 0.6818 !default;
 $line-height-base: 1.4;
 
-// Brand
-$font-color-base: #6F6D7B;
-$brand-color-primary: #FF715B;
-$brand-color-secondary: #51394C;
+$dark-grey: #4A4A4A;
+$light-grey: #F5F5F5;
 
-$white: #fff;
+// Brand
+$font-color-base: $dark-grey;
+$brand-color-primary: #F38540;
+$brand-color-secondary: #FFD371;
+
+
 
 // $code-color: #abb2bf;
 // $code-bkg: #282c34;

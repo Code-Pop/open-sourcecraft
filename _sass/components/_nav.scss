@@ -2,9 +2,13 @@
   position: absolute;
   display: block;
   right: 10px;
-  top: 10px;
+  top: 14px;
   width: 40px;
   padding-top: 18px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: $brand-color-primary;
   z-index: 1;
   > .burger,
   &::before,
@@ -16,7 +20,7 @@
     height: 2px;
     width: 30px;
     content: '';
-    background: black;
+    background: $brand-color-primary;
     margin-left: -15px;
     transition: all 0.2s ease;
   }
