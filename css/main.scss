@@ -3,6 +3,16 @@
 
 @charset "utf-8";
 
-@import 'normalize-scss/sass/normalize';
+// Vendors
+@import 'vendors/normalize/normalize';
+@import 'vendors/nucleo/nucleo-outline';
+
+// Core
 @import 'settings';
 @import 'base';
+
+// Layouts
+@import 'layouts/header';
+
+// Components
+@import 'components/nav';

@@ -1,13 +1,19 @@
 
-<header role="banner">
-  <a href="{{ site.baseurl }}/">
+<header class="debug header" role="banner">
+  <a class="brand" href="{{ site.baseurl }}/">
 		<span class="sr-only">{{ site.title }}</span>
 	</a>
-	<nav>
-    {% assign nav_order = site.pages | sort: 'order' %}
-    {% for page in nav_order %}
-      {% unless page.url == site.baseurl %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
+  <a class="nav-trigger" href="#nav">
+    Menu
+    <span class="burger"><!--Menu Controller--></span>
+  </a>
+	<nav class="nav-header">
+    {% assign page_list = site.pages | sort: 'order' %}
+    {% for node in page_list %}
+      {% unless node.title == null %}
+        {% if node.layout == 'page' %}
+          <a class="item {% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
       {% endunless %}
     {% endfor %}
   </nav>
