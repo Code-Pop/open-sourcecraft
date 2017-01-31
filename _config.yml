@@ -13,18 +13,18 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ''
-      type: episodes
-    values:
-      layout: episode
-      excerpt: ''
-      episode_number: ''
-      feature_image: ''
-      audio_embed: ''
-      video_embed: ''
-      notes:
-      - ''
+- scope:
+    path: ''
+    type: episodes
+  values:
+    layout: episode
+    excerpt: ''
+    episode_number: ''
+    feature_image: ''
+    audio_embed: ''
+    video_embed: ''
+    notes:
+    - ''
 email: dustin@delatore.me
 description: 'The world runs on Open Source Software.  We speak to the people who
   shape our world.
