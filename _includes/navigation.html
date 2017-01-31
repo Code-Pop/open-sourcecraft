@@ -1,0 +1,8 @@
+{% assign page_list = site.pages | sort: 'order' %}
+{% for node in page_list %}
+  {% unless node.title == null %}
+    {% if node.layout == 'page' %}
+      <a class="item {% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
