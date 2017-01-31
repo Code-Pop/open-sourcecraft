@@ -1,9 +1,11 @@
 .site-header {
+  z-index: 2;
   // display: flex;
   // justify-content: space-between;
   > .brand {
     display: block;
     width: 60%;
     max-width: 320px;
+    padding: 10px;
   }
 }

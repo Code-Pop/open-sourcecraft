@@ -2,4 +2,17 @@
 layout: default
 ---
 
-<p>{{ site.description }}</p>
+{% for episode in site.episodes limit: 1 %}
+  <section class="feature-display">
+    <p class="site-title">{{ site.description }}</p>
+    <img src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
+    <div class="content-card">
+      <small class="meta">Episode {{ episode.episode_number }}</small>
+      <h1 class="title">
+        <a href="{{ episode.url }}">{{ episode.title }}</a></h1>
+      <p class="content">{{ episode.excerpt }}</p>
+      <a class="button -primary _icon" href="#">Watch Now</a>
+      <a class="button -primary _icon" href="#">Listen Now</a>
+    </div>
+  </section>
+{% endfor %}

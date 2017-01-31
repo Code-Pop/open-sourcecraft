@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #fff;
+  text-decoration: none;
+  &.-primary {
+    color: $brand-color-primary;
+    &:visited {
+      color: $brand-color-primary;
+    }
+  }
+  &._icon {
+    padding-left: 0;
+  }
+}

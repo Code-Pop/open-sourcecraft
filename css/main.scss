@@ -12,9 +12,12 @@
 
 // Layouts
 @import 'layouts/header';
+@import 'layouts/display';
 
 // Components
 @import 'components/nav';
+@import 'components/card';
+@import 'components/button';
 
 // Helpers
 @import 'helpers';
