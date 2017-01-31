@@ -47,24 +47,25 @@
 
 .nav-header {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -320px;
-  width: 300px;
+  top: -200px;
+  width: 100%;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   background: #fff;
   -webkit-transition: transform 0.2s ease;
   transition: transform 0.2s ease;
-  z-index: 1;
   > .item {
     display: block;
     padding: 10px 26px;
     text-decoration: none;
     text-transform: uppercase;
+    color: $brand-color-primary;
+    &:visited {
+      color: $brand-color-primary;
+    }
   }
 
   &._is-open {
-    -webkit-transform: translateX(-320px);
-    transform: translateX(-320px);
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
   }
 }

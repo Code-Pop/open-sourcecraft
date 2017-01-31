@@ -6,6 +6,10 @@
   > .title {
     margin: 0;
     font-size: 20px;
+    > .link {
+      color: $font-color-base;
+      text-decoration: none;
+    }
   }
   > .content {
     margin: 0;
