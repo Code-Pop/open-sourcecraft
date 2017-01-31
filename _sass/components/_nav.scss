@@ -1,3 +1,24 @@
+
+.nav-header {
+  position: absolute;
+  display: none;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background: #fff;
+  > .item {
+    display: block;
+    padding: 10px 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $brand-color-primary;
+    &:visited {
+      color: $brand-color-primary;
+    }
+  }
+}
+
 .nav-trigger {
   position: absolute;
   display: block;
@@ -42,30 +63,5 @@
     &::after {
       transform: rotate(-45deg);
     }
-  }
-}
-
-.nav-header {
-  position: absolute;
-  top: -200px;
-  width: 100%;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  background: #fff;
-  -webkit-transition: transform 0.2s ease;
-  transition: transform 0.2s ease;
-  > .item {
-    display: block;
-    padding: 10px 26px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $brand-color-primary;
-    &:visited {
-      color: $brand-color-primary;
-    }
-  }
-
-  &._is-open {
-    -webkit-transform: translateY(200px);
-    transform: translateY(200px);
   }
 }

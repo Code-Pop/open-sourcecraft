@@ -3,15 +3,19 @@
    // Mobile Navigation Menu Toggle
    $('.nav-trigger').on('click', function(event) {
      event.preventDefault();
+     var base = $(this),
+        // Keep html elements within trigger
+        cache = base.children(),
+        // Swap text
+        txt = base.hasClass('_is-open') ? 'Menu' : 'Close';
 
-     // Keep html elements within trigger
-     var cache = $(this).children();
+     base.toggleClass('_is-open').text(txt).append(cache);
 
-     // Toggle text for trigger
-     var txt = $(this).hasClass('_is-open') ? 'Menu' : 'Close';
-     $(this).toggleClass('_is-open').text(txt).append(cache);
+     if (base.hasClass('_is-open')) {
+       $('.nav-header').slideDown();
+     } else {
+       $('.nav-header').slideUp();
+     }
 
-     // Self explanatory
-     $('.nav-header').toggleClass('_is-open');
    });
  });

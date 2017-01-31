@@ -18,6 +18,19 @@ h2 {
 	font-family: $font-family-secondary;
 }
 
+h2 {
+	font-weight: 200;
+	text-align: center;
+}
+
+hr {
+	width: 80%;
+	height: 1px;
+	margin: 0 auto;
+	border: 0;
+	background: $dark-grey;
+}
+
 // SVG Logo colors
 .st0{fill:$brand-color-secondary;}
 .st1{fill:$brand-color-primary;}

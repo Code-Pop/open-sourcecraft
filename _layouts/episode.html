@@ -9,8 +9,17 @@ layout: default
     <a class="button -primary _icon" href="#">Listen Now</a>
   </div>
 </section>
-<article class="">
+<article class="episode-article" style="width: 75%; padding: 20px;">
   <small class="meta">Episode {{ page.episode_number }}</small>
   <h1 class="title">{{ page.title }}</h1>
   {{content}}
 </article>
+<hr>
+<section>
+  <h2>Show Notes</h2>
+  <ul>
+    {% for note in page.notes %}
+      <li>{{ note | markdownify }}</li>
+    {% endfor %}
+  </ul>
+</section>

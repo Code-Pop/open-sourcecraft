@@ -1,0 +1,10 @@
+.episode-article {
+  padding: 20px;
+  > .title {
+    margin: 0;
+    font-size: 20px;
+  }
+  > .meta {
+    color: $grey;
+  }
+}
