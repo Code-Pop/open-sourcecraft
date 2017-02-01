@@ -48,7 +48,7 @@ layout: default
 <section class="v-space">
   <hr>
   <h2>Latest</h2>
-  {% for episode in site.episodes %}
+  {% for episode in site.episodes offset: 1 %}
   <section>
     <div class="content-card">
       <a href="{{ episode.url | prepend: site.baseurl }}">
