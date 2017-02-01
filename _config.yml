@@ -31,12 +31,14 @@ description: 'The world runs on Open Source Software.  We speak to the people 
 
 '
 baseurl: "/open-sourcecraft"
-url: 
+url:
 social:
-- source: facebook
-  url: facebook.com
+- source: podcast
+  url: podcast.com
 - source: youtube
   url: youtube.com
+- source: facebook
+  url: facebook.com
 - source: twitter
   url: twitter.com
 - source: instagram
