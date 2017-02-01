@@ -20,3 +20,49 @@ layout: default
     </div>
   </section>
 {% endfor %}
+
+<section class="v-space">
+  <form class="email-form" action="index.html" method="post">
+    <p class="label">Get Episodes Automatically</p>
+    <div class="form-group">
+      <input class="input _full" type="text" name="email" value="" placeholder="Email Address">
+      <button class="button -primary" type="button" name="button">Subscribe</button>
+    </div>
+  </form>
+  <nav class="-inline">
+    {% for social in site.social %}
+    <a class="item" href="{{social.url}}">
+      <svg class="icon -primary">
+        <use xlink:href="#ico-{{social.source}}">
+      </svg>
+    </a>
+    {% endfor %}
+  </nav>
+</section>
+
+<section class="v-space _text-center">
+  <a class="button -primary -border" href="{{ "/episodes/" | prepend: site.baseurl }}">
+    See what's coming in the future</a>
+</section>
+
+<section class="v-space">
+  <hr>
+  <h2>Latest</h2>
+  {% for episode in site.episodes %}
+  <section>
+    <div class="content-card">
+      <small class="meta">Episode {{ episode.episode_number }}</small>
+      <h1 class="title">
+        <a class="link" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h1>
+      <p class="content">{{ episode.excerpt }}</p>
+      <a class="button -primary _with-icon" href="#">
+        <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+        Watch Now</a>
+      <a class="button -primary _with-icon" href="#">
+        <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
+        Listen Now</a>
+      <img src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
+    </div>
+  </section>
+  {% endfor %}
+</section>
