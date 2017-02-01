@@ -1,6 +1,6 @@
 ---
 title: Open-Source Craft
-timezone: UTC
+timezone: America/New_York
 collections:
   episodes:
     title: Episodes
@@ -31,7 +31,7 @@ description: 'The world runs on Open Source Software.  We speak to the people 
 
 '
 baseurl: "/open-sourcecraft"
-url: ''
+url: 
 social:
 - source: facebook
   url: facebook.com
