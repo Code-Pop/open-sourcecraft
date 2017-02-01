@@ -30,8 +30,17 @@ description: 'The world runs on Open Source Software.  We speak to the people 
   shape our world.
 
 '
-baseurl: ''
+baseurl: '/open-sourcecraft'
 url: ''
+social:
+  - source: 'facebook'
+    url: 'facebook.com'
+  - source: 'youtube'
+    url: 'youtube.com'
+  - source: 'twitter'
+    url: 'twitter.com'
+  - source: 'instagram'
+    url: 'instagram.com'
 markdown: kramdown
 gems:
 - jekyll-feed
@@ -39,3 +48,5 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+- package.json
+- node_modules
