@@ -4,10 +4,13 @@
   </nav>
 
   <nav class="nav-footer">
-    <a class="item" href="#">Facebook</a>
-    <a class="item" href="#">Twitter</a>
-    <a class="item" href="#">Instagram</a>
-    <a class="item" href="#">YouTube</a>
+    {% for social in site.social %}
+    <a class="item" href="{{social.url}}">
+      <svg class="icon ico-{{social.source}}">
+        <use xlink:href="#ico-{{social.source}}">
+      </svg>
+    </a>
+    {% endfor %}
   </nav>
 
   <a class="brand" href="{{ site.baseurl }}/">

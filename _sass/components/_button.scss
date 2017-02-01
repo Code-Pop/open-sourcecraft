@@ -3,13 +3,19 @@
   padding: 10px 16px;
   background: #fff;
   text-decoration: none;
+  font-weight: 200;
   &.-primary {
     color: $brand-color-primary;
+    stroke: $brand-color-primary;
     &:visited {
       color: $brand-color-primary;
     }
   }
-  &._icon {
+  &._with-icon {
     padding-left: 0;
+    > .icon {
+      margin-right: 6px;
+      margin-bottom: -7px;
+    }
   }
 }
