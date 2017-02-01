@@ -5,8 +5,12 @@ layout: default
 <section class="episode-display">
   <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
   <div class="content-card">
-    <a class="button -primary _icon" href="#">Watch Now</a>
-    <a class="button -primary _icon" href="#">Listen Now</a>
+    <a class="button -primary _with-icon" href="#">
+      <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+      Watch Now</a>
+    <a class="button -primary _with-icon" href="#">
+      <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
+      Listen Now</a>
   </div>
 </section>
 <article class="episode-article" style="width: 75%; padding: 20px;">
@@ -14,8 +18,9 @@ layout: default
   <h1 class="title">{{ page.title }}</h1>
   {{content}}
 </article>
-<hr>
-<section>
+
+<section class="v-space">
+  <hr>
   <h2>Show Notes</h2>
   <ul>
     {% for note in page.notes %}
