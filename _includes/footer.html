@@ -1,12 +1,12 @@
 <footer class="site-footer" role="contentinfo">
-  <nav class="nav-footer">
+  <nav class="nav-footer -inline">
     {% include navigation.html %}
   </nav>
 
-  <nav class="nav-footer">
+  <nav class="nav-footer -inline">
     {% for social in site.social %}
     <a class="item" href="{{social.url}}">
-      <svg class="icon ico-{{social.source}}">
+      <svg class="icon">
         <use xlink:href="#ico-{{social.source}}">
       </svg>
     </a>
