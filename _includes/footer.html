@@ -4,11 +4,21 @@
   </nav>
 
   <nav class="nav-footer -inline">
-    {% for social in site.social %}
-    <a class="item" href="{{social.url}}">
+    {% for follow in site.follow %}
+    <a class="item" href="{{ follow.source | append: ".com/" }}{{follow.username }}">
       <svg class="icon">
-        <use xlink:href="#ico-{{social.source}}">
+        <use xlink:href="#ico-{{follow.source}}">
       </svg>
+      <span class="_sr-only">{{follow.source | capitalize }}</span>
+    </a>
+    {% endfor %}
+
+    {% for subscribe in site.subscribe %}
+    <a class="item" href="{{subscribe.url}}">
+      <svg class="icon">
+        <use xlink:href="#ico-{{subscribe.source}}">
+      </svg>
+      <span class="_sr-only">{{subscribe.source | capitalize }}</span>
     </a>
     {% endfor %}
   </nav>

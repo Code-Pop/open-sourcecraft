@@ -16,6 +16,51 @@
      } else {
        $('.nav-header').slideUp();
      }
-
    });
+
+
  });
+
+(function($) {
+
+  $.fn.extend({
+    modal: function(options) {
+      var defaults = {
+        overlayClass: 'overlay'
+      }
+
+      options = $.extend(defaults, options);
+
+      var overlay = "<div id=\"modal_overlay\" class=\"" + options.overlayClass + "\"></div>";
+      $('body').append(overlay);
+
+      return this.each(function() {
+
+        var o = options;
+
+
+        $(this).click(function(e) {
+          e.preventDefault();
+          var modal_id = $(this).attr('href'),
+            overlay_id = '#modal_overlay';
+
+
+          $(modal_id).removeClass('_is-closed');
+          $(overlay_id).fadeIn(200);
+
+          // Close modal
+          $('#modal_overlay').click(function() {
+            close_modal(modal_id);
+          });
+        });
+      });
+
+      function close_modal(modal_id) {
+        $('#modal_overlay').fadeOut(200);
+        $(modal_id).addClass('_is-closed');
+      }
+    }
+  });
+})(jQuery);
+
+$('[data-toggle=modal]').modal();

@@ -16,6 +16,20 @@ layout: default
 <article class="episode-article" style="width: 75%; padding: 20px;">
   <small class="meta">Episode {{ page.episode_number }}</small>
   <h1 class="title">{{ page.title }}</h1>
+  <nav class=" _text-left -inline">
+    <a class="button -primary _with-icon" href="#subscribe_modal" data-toggle="modal">
+      <svg class="icon">
+        <use xlink:href="#ico-rss">
+      </svg>
+      Subscribe
+    </a>
+    <a class="button -primary _with-icon" href="#share_modal" data-toggle="modal">
+      <svg class="icon">
+        <use xlink:href="#ico-share">
+      </svg>
+      Share
+    </a>
+  </nav>
   {{content}}
 </article>
 
@@ -28,3 +42,34 @@ layout: default
     {% endfor %}
   </ul>
 </section>
+
+<div id="share_modal" class="modal-content _is-closed">
+    <h2>Share</h2>
+    <section class="_text-center">
+      <a class="button -primary _with-icon" href="https://twitter.com/intent/tweet?text={{page.title}}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&via=opensourcecraft&related=opensourcecraft">
+        <svg class="icon">
+          <use xlink:href="#ico-twitter">
+        </svg>
+        Twitter
+      </a>
+      <a class="button -primary _with-icon" href="https://www.facebook.com/sharer/sharer.php?u={{page.title}}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}">
+        <svg class="icon">
+          <use xlink:href="#ico-facebook">
+        </svg>
+        Facebook
+      </a>
+    </section>
+</div>
+<div id="subscribe_modal" class="modal-content _is-closed">
+  <h2>Subscribe</h2>
+  <section class="_text-center">
+    {% for subscribe in site.subscribe %}
+    <a class="button -primary _with-icon" href="{{subscribe.url}}">
+      <svg class="icon">
+        <use xlink:href="#ico-{{subscribe.source}}">
+      </svg>
+      {{ subscribe.source | capitalize }}
+    </a>
+    {% endfor %}
+  </section>
+</div>

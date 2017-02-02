@@ -1,0 +1,30 @@
+.modal-content {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position: fixed;
+  overflow: hidden;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  bottom: 10%;
+  padding: 20px 25px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 5;
+  transition: transform 0.3s cubic-bezier(.52,.01,.44,1.33);
+  &._is-closed {
+    transform: scale(0,0);
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 4;
+}
