@@ -11,7 +11,7 @@ layout: default
       <h1 class="title">
         <a class="link" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h1>
       <p class="content">{{ episode.excerpt }}</p>
-      <a class="button -primary _with-icon" href="#">
+      <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media={{ episode.video_embed }}">
         <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
         Watch Now</a>
       <a class="button -primary _with-icon" href="#">

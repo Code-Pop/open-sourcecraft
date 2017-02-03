@@ -18,6 +18,37 @@
      }
    });
 
+   // Media Embed swap
+
+   var url_query = getUrlVars()["media"];
+
+   var video_frame  = "<div class=\"video-wrapper\">";
+       video_frame += "<iframe src=" + url_query + " frameborder=\"0\" allowfullscreen></iframe>",
+       video_frame += "</div>";
+
+
+   if ( window.location.href.indexOf(url_query) > -1 ) {
+     swapMedia(video_frame);
+   }
+
+   function getUrlVars() {
+     var vars = [], hash;
+     var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+     for(var i = 0; i < hashes.length; i++)
+     {
+         hash = hashes[i].split('=');
+         vars.push(hash[0]);
+         vars[hash[0]] = hash[1];
+     }
+     return vars;
+   }
+
+
+   function swapMedia(video_frame) {
+     $('#mediaContainer > .episode-display').hide();
+     $('#mediaContainer').prepend(video_frame);
+   }
+
 
  });
 
