@@ -48,7 +48,7 @@ layout: default
 <div id="share_modal" class="modal-content _is-closed">
     <h2>Share</h2>
     <section class="_text-center">
-      <a class="button -primary _with-icon" href="https://twitter.com/intent/tweet?text={{page.title}}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&via=opensourcecraft&related=opensourcecraft">
+      <a class="button -primary _with-icon" href="https://twitter.com/intent/tweet?text={{page.title}}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&via={{ site.follow[2].username }}&related={{ site.follow[2].username }}">
         <svg class="icon">
           <use xlink:href="#ico-twitter">
         </svg>
