@@ -15,27 +15,28 @@ layout: default
     </div>
   </div>
 </section>
-<article class="episode-article" style="width: 75%; padding: 20px;">
+<article class="episode-article">
   <small class="meta">Episode {{ page.episode_number }}</small>
   <h1 class="title">{{ page.title }}</h1>
   <nav class=" _text-left -inline">
-    <a class="button -primary _with-icon" href="#subscribe_modal" data-toggle="modal">
+    <a class="button -default _with-icon" href="#subscribe_modal" data-toggle="modal">
       <svg class="icon">
         <use xlink:href="#ico-rss">
       </svg>
       Subscribe
     </a>
-    <a class="button -primary _with-icon" href="#share_modal" data-toggle="modal">
+    <a class="button -default _with-icon" href="#share_modal" data-toggle="modal">
       <svg class="icon">
         <use xlink:href="#ico-share">
       </svg>
       Share
     </a>
   </nav>
+  <hr>
   {{content}}
 </article>
 
-<section class="v-space">
+<section class="episode-article v-space">
   <hr>
   <h2>Show Notes</h2>
   <ul>
