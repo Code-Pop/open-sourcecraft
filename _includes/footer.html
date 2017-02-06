@@ -1,30 +1,32 @@
 <footer class="site-footer" role="contentinfo">
-  <nav class="nav-footer -inline">
-    {% include navigation.html %}
-  </nav>
+  <div class="site-container">
+    <nav class="nav-footer -inline">
+      {% include navigation.html %}
+    </nav>
 
-  <nav class="nav-footer -inline">
-    {% for follow in site.follow %}
-    <a class="item" href="{{ follow.source | append: ".com/" }}{{follow.username }}">
-      <svg class="icon">
-        <use xlink:href="#ico-{{follow.source}}">
-      </svg>
-      <span class="_sr-only">{{follow.source | capitalize }}</span>
+    <nav class="nav-footer -inline">
+      {% for follow in site.follow %}
+      <a class="item" href="{{ follow.source | append: ".com/" }}{{follow.username }}">
+        <svg class="icon">
+          <use xlink:href="#ico-{{follow.source}}">
+        </svg>
+        <span class="_sr-only">{{follow.source | capitalize }}</span>
+      </a>
+      {% endfor %}
+
+      {% for subscribe in site.subscribe %}
+      <a class="item" href="{{subscribe.url}}">
+        <svg class="icon">
+          <use xlink:href="#ico-{{subscribe.source}}">
+        </svg>
+        <span class="_sr-only">{{subscribe.source | capitalize }}</span>
+      </a>
+      {% endfor %}
+    </nav>
+
+    <a class="brand" href="{{ site.baseurl }}/">
+      {% include lgo-osc.svg %}
+      <span class="_sr-only">{{ site.title }}</span>
     </a>
-    {% endfor %}
-
-    {% for subscribe in site.subscribe %}
-    <a class="item" href="{{subscribe.url}}">
-      <svg class="icon">
-        <use xlink:href="#ico-{{subscribe.source}}">
-      </svg>
-      <span class="_sr-only">{{subscribe.source | capitalize }}</span>
-    </a>
-    {% endfor %}
-  </nav>
-
-  <a class="brand" href="{{ site.baseurl }}/">
-    {% include lgo-osc.svg %}
-		<span class="_sr-only">{{ site.title }}</span>
-	</a>
+  </div>
 </footer>

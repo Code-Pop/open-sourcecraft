@@ -22,13 +22,17 @@
 
    var url_query = getUrlVars()["media"];
 
-   var video_frame  = "<div class=\"video-wrapper\">";
-       video_frame += "<iframe src=" + url_query + " frameborder=\"0\" allowfullscreen></iframe>",
-       video_frame += "</div>";
+  function videoEmbed(url) {
+    var video_frame  = "<div class=\"frame-wrapper\">";
+        video_frame += "<iframe src=" + url + " frameborder=\"0\" allowfullscreen></iframe>",
+        video_frame += "</div>";
+
+    return video_frame;
+  }
 
 
    if ( window.location.href.indexOf(url_query) > -1 ) {
-     swapMedia(video_frame);
+     swapMedia(videoEmbed(url_query));
    }
 
    function getUrlVars() {

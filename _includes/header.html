@@ -1,14 +1,16 @@
 
 <header class="site-header" role="banner">
-  <a class="brand" href="{{ site.baseurl }}/">
-    {% include lgo-osc.svg %}
-		<span class="_sr-only">{{ site.title }}</span>
-	</a>
-  <a class="nav-trigger" href="#">
-    Menu
-    <span class="burger"><!--Menu Controller--></span>
-  </a>
-	<nav class="nav-header">
-    {% include navigation.html %}
-  </nav>
+  <div class="site-container">
+    <a class="brand" href="{{ site.baseurl }}/">
+      {% include lgo-osc.svg %}
+  		<span class="_sr-only">{{ site.title }}</span>
+  	</a>
+    <a class="nav-trigger" href="#">
+      Menu
+      <span class="burger"><!--Menu Controller--></span>
+    </a>
+  	<nav class="nav-header">
+      {% include navigation.html %}
+    </nav>  
+  </div>
 </header>

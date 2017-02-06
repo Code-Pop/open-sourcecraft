@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 
   {% include head.html %}
 
   <body>
+    <a href="#main_content" class="_sr-only _sr-only-focus">Skip to Main Content</a>
     <div class="_sr-only">
       {% include icons.svg %}
     </div>
 
     {% include header.html %}
 
-    <main role="main">
+    <main id="main_content" class="site-container" role="main">
       {{ content }}
     </main>
 
@@ -20,10 +21,5 @@
     <script>window.jQuery || document.write('<script src="js/vendors/jquery.min.js"><\/script>')</script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
-    <script type="text/javascript">
-        // $(document).ready(function() {
-        //   mediaEmbed();
-        // });
-    </script>
   </body>
 </html>
