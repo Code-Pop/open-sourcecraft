@@ -4,9 +4,12 @@
   background: #fff;
   text-decoration: none;
   font-weight: 200;
-
+  @include bp(laptop) {
+    // padding: 20px 26px;
+  }
   // Different style for form buttosn and anchor buttons
-  &[type=button] {
+  &[type=button],
+  &[type=submit] {
     border: 0;
   }
   &.-default {
@@ -15,7 +18,8 @@
     &:visited {
       color: $dark-grey;
     }
-    &[type=button] {
+    &[type=button],
+    &[type=submit] {
       background: $dark-grey;
       color: #fff;
       stroke: #fff;
@@ -30,7 +34,8 @@
     &:visited {
       color: $brand-color-primary;
     }
-    &[type=button] {
+    &[type=button],
+    &[type=submit] {
       background: $brand-color-primary;
       color: #fff;
       stroke: #fff;

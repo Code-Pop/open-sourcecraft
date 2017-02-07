@@ -2,10 +2,13 @@
 layout: default
 ---
 
-{% for episode in site.episodes limit: 1 %}
+{% assign sort_episodes = site.episodes | sort: 'episode_number' | reverse %}
+{% for episode in sort_episodes limit: 1 %}
   <section class="feature-display">
     <p class="site-title">{{ site.description }}</p>
-    <img src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
+    <div class="feature-image">
+      <img src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
+    </div>
     <div class="content-card _floating">
       <small class="meta">Episode {{ episode.episode_number }}</small>
       <h1 class="title">
@@ -22,35 +25,41 @@ layout: default
 {% endfor %}
 
 <section class="v-space">
-  <form class="email-form" action="index.html" method="post">
+  <div id="mlb2-4157067" class="email-form">
     <p class="label">Get Episodes Automatically</p>
-    <div class="form-group">
-      <input class="input _full" type="text" name="email" value="" placeholder="Email Address">
-      <button class="button -primary" type="button" name="button">Subscribe</button>
-    </div>
-  </form>
-  <nav class="-inline">
-    {% for follow in site.follow %}
-    <a class="item" href="{{ follow.source | append: ".com/" }}{{follow.username }}">
-      <svg class="icon -primary">
-        <use xlink:href="#ico-{{follow.source}}">
-      </svg>
-      <span class="_sr-only">{{follow.source | capitalize }}</span>
-    </a>
-    {% endfor %}
+    <form class="ml-block-form" action="//app.mailerlite.com/webforms/submit/u0z1u2" data-id="290745" data-code="u0z1u2" method="POST" target="_blank">
 
-    {% for subscribe in site.subscribe %}
-    <a class="item" href="{{subscribe.url}}">
-      <svg class="icon -primary">
-        <use xlink:href="#ico-{{subscribe.source}}">
-      </svg>
-      <span class="_sr-only">{{subscribe.source | capitalize }}</span>
-    </a>
-    {% endfor %}
+      <div class="form-group ml-field-email ml-validate-required ml-validate-email">
+        <input type="text" name="fields[email]" class="input _full" placeholder="Email*" value="">
+        <button type="submit" class="button -primary">
+            Subscribe
+        </button>
+      </div>
+      <input type="hidden" name="ml-submit" value="1" />
+    </form>
+    <nav class="-inline">
+      {% for follow in site.follow %}
+      <a class="item" href="//{{ follow.source | append: ".com/" }}{{follow.username }}">
+        <svg class="icon -primary">
+          <use xlink:href="#ico-{{follow.source}}">
+        </svg>
+        <span class="_sr-only">{{follow.source | capitalize }}</span>
+      </a>
+      {% endfor %}
 
-  </nav>
+      {% for subscribe in site.subscribe %}
+      <a class="item" href="//{{subscribe.url}}">
+        <svg class="icon -primary">
+          <use xlink:href="#ico-{{subscribe.source}}">
+        </svg>
+        <span class="_sr-only">{{subscribe.source | capitalize }}</span>
+      </a>
+      {% endfor %}
+
+    </nav>
+  </div>
+  <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.min.js?v86b0a4c660f110085cbf49e83e53be98"></script>
 </section>
-
 <section class="v-space _text-center">
   <a class="button -primary -border" href="{{ "/episodes/" | prepend: site.baseurl }}">
     See what's coming in the future</a>
@@ -59,8 +68,8 @@ layout: default
 <section class="v-space">
   <hr>
   <h2>Latest</h2>
-  {% for episode in site.episodes offset: 1 %}
-  <section>
+  {% for episode in sort_episodes offset: 1 %}
+  <article class="article-container">
     <div class="content-card">
       <a href="{{ episode.url | prepend: site.baseurl }}">
         <img class="media" src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
@@ -76,6 +85,6 @@ layout: default
         <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
         Listen Now</a>
     </div>
-  </section>
+  </article>
   {% endfor %}
 </section>

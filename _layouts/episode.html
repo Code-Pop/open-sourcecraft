@@ -2,77 +2,79 @@
 layout: default
 ---
 
-<section id="mediaContainer">
-  <div class="episode-display">
-    <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
-    <div id="mediaContent" class="content-card _floating">
-      <a class="button -primary _with-icon" href="?media={{ page.video_embed }}">
-        <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
-        Watch Now</a>
-      <a class="button -primary _with-icon" href="#">
-        <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
-        Listen Now</a>
+<article class="article-container">
+  <section id="mediaContainer">
+    <div class="episode-display">
+      <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
+      <div id="mediaContent" class="content-card _floating">
+        <a class="button -primary _with-icon" href="?media={{ page.video_embed }}">
+          <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+          Watch Now</a>
+        <a class="button -primary _with-icon" href="#">
+          <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
+          Listen Now</a>
+      </div>
     </div>
-  </div>
-</section>
-<article class="episode-article">
-  <small class="meta">Episode {{ page.episode_number }}</small>
-  <h1 class="title">{{ page.title }}</h1>
-  <nav class=" _text-left -inline">
-    <a class="button -default _with-icon" href="#subscribe_modal" data-toggle="modal">
-      <svg class="icon">
-        <use xlink:href="#ico-rss">
-      </svg>
-      Subscribe
-    </a>
-    <a class="button -default _with-icon" href="#share_modal" data-toggle="modal">
-      <svg class="icon">
-        <use xlink:href="#ico-share">
-      </svg>
-      Share
-    </a>
-  </nav>
-  <hr>
-  {{content}}
-</article>
-
-<section class="episode-article v-space">
-  <hr>
-  <h2>Show Notes</h2>
-  <ul>
-    {% for note in page.notes %}
-      <li>{{ note | markdownify }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
-<div id="share_modal" class="modal-content _is-closed">
-    <h2>Share</h2>
-    <section class="_text-center">
-      <a class="button -primary _with-icon" href="https://twitter.com/intent/tweet?text={{page.title}}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&via={{ site.follow[2].username }}&related={{ site.follow[2].username }}">
-        <svg class="icon">
-          <use xlink:href="#ico-twitter">
-        </svg>
-        Twitter
-      </a>
-      <a class="button -primary _with-icon" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | prepend: site.baseurl }}">
-        <svg class="icon">
-          <use xlink:href="#ico-facebook">
-        </svg>
-        Facebook
-      </a>
-    </section>
-</div>
-<div id="subscribe_modal" class="modal-content _is-closed">
-  <h2>Subscribe</h2>
-  <section class="_text-center">
-    {% for subscribe in site.subscribe %}
-    <a class="button -primary _with-icon" href="{{subscribe.url}}">
-      <svg class="icon">
-        <use xlink:href="#ico-{{subscribe.source}}">
-      </svg>
-      {{ subscribe.source | capitalize }}
-    </a>
-    {% endfor %}
   </section>
-</div>
+  <section class="episode-article article-container">
+    <small class="meta">Episode {{ page.episode_number }}</small>
+    <h1 class="title">{{ page.title }}</h1>
+    <nav class=" _text-left -inline">
+      <a class="button -default _with-icon" href="#subscribe_modal" data-toggle="modal">
+        <svg class="icon">
+          <use xlink:href="#ico-rss">
+        </svg>
+        Subscribe
+      </a>
+      <a class="button -default _with-icon" href="#share_modal" data-toggle="modal">
+        <svg class="icon">
+          <use xlink:href="#ico-share">
+        </svg>
+        Share
+      </a>
+    </nav>
+    <hr>
+    {{content}}
+
+    <div class="v-space">
+      <hr>
+      <h2>Show Notes</h2>
+      <ul>
+        {% for note in page.notes %}
+          <li>{{ note | markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <div id="share_modal" class="modal-content _is-closed">
+      <h2>Share</h2>
+      <section class="_text-center">
+        <a class="button -primary _with-icon" href="https://twitter.com/intent/tweet?text={{page.title}}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&via={{ site.follow[2].username }}&related={{ site.follow[2].username }}">
+          <svg class="icon">
+            <use xlink:href="#ico-twitter">
+          </svg>
+          Twitter
+        </a>
+        <a class="button -primary _with-icon" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | prepend: site.baseurl }}">
+          <svg class="icon">
+            <use xlink:href="#ico-facebook">
+          </svg>
+          Facebook
+        </a>
+      </section>
+  </div>
+  <div id="subscribe_modal" class="modal-content _is-closed">
+    <h2>Subscribe</h2>
+    <section class="_text-center">
+      {% for subscribe in site.subscribe %}
+      <a class="button -primary _with-icon" href="{{subscribe.url}}">
+        <svg class="icon">
+          <use xlink:href="#ico-{{subscribe.source}}">
+        </svg>
+        {{ subscribe.source | capitalize }}
+      </a>
+      {% endfor %}
+    </section>
+  </div>
+</article>

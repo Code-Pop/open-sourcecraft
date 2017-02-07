@@ -1,0 +1,17 @@
+@mixin bp($point) {
+  @if $point == tablet {
+    @media (min-width: $tablet ) {
+      @content;
+    }
+  }
+  @else if $point == laptop {
+    @media (min-width: $laptop ) {
+      @content;
+    }
+  }
+  @else if $point == desktop {
+    @media (min-width: $desktop) {
+      @content
+    }
+  }
+}

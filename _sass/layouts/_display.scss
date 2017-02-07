@@ -1,19 +1,67 @@
 .feature-display {
+  @include bp(laptop) {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: left;
+    // position: relative;
+  }
   > .site-title {
     padding: 10px;
+    @include bp(laptop) {
+      width: 25%;
+      padding: 20px;
+      margin-right: 2%;
+    }
+    @include bp(desktop) {
+      padding: 30px;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: -24px;
+    }
   }
   > .content-card {
     position: relative;
     top: -100px;
     margin-bottom: -100px;
+    > .title {
+      @include bp(laptop) {
+        font-size: 36px;
+      }
+    }
+    @include bp(laptop) {
+      position: relative;
+      top: auto;
+      width: 55%;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    @include bp(desktop) {
+      width: 45%;
+    }
+  }
+  > .feature-image {
+    @include bp(laptop) {
+      align-self: flex-end;
+      margin: -150px 0 -300px 0;
+      width: 70%;
+      > img { float: right; }
+    }
   }
 }
 
 .episode-display {
+  margin: 0 auto;
   > .content-card._floating {
     position: relative;
     top: -50px;
     margin-bottom: -50px;
     padding: 10px 20px;
+    @include bp(laptop) {
+      display: inline-block;
+    }
+    @include bp(desktop) {
+      left: -60px;
+    }
   }
 }

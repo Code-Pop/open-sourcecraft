@@ -10,6 +10,9 @@
   text-decoration: none;
   color: $brand-color-primary;
   z-index: 2;
+  @include bp(laptop) {
+    display: none;
+  }
   > .burger,
   &::before,
   &::after {
@@ -54,6 +57,15 @@
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   background: #fff;
   z-index: 1;
+  @include bp(laptop) {
+    display: block;
+    position: relative;
+    float: right;
+    width: auto;
+    text-align: right;
+    background: none;
+    box-shadow: none;
+  }
   > .item {
     display: block;
     padding: 10px 26px;
@@ -62,6 +74,25 @@
     color: $brand-color-primary;
     &:visited {
       color: $brand-color-primary;
+    }
+    &._is-live {
+      position: relative;
+      font-style: italic;
+      color: #D0011B;
+      &::before {
+        position: absolute;
+        left: 10px;
+        top: 5px;
+        font-size: 28px;
+        content: '•';
+        @include bp(laptop) {
+          top: 13px;
+        }
+      }
+    }
+    @include bp(laptop) {
+      display: inline-block;
+      padding: 17px 26px;
     }
   }
 }
@@ -77,6 +108,10 @@
 }
 
 .nav-footer {
+  @include bp(laptop) {
+    text-align: left;
+    width: 50%;
+  }
   > .item {
     color: $grey;
     &:visited {

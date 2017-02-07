@@ -1,7 +1,18 @@
 .site-footer {
+  overflow: hidden;
   margin-top: 80px;
   padding: 20px;
   background: $dark-grey;
   .st0, .st1 {fill: $grey;}
   .icon { stroke: $grey; }
+}
+
+.brand-footer {
+  @include bp(laptop) {
+    display: block;
+    float: right;
+    width: 60%;
+    max-width: 320px;
+    padding: 13px 10px;
+  }
 }

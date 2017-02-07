@@ -1,9 +1,15 @@
 .site-container {
-  max-width: 1600px;
+  margin: 0 auto;
+  max-width: $site-max-width;
 }
 
 .page-container {
   padding: 0 15px;
+}
+
+.article-container {
+  margin: 0 auto;
+  max-width: $article-max-width;
 }
 
 .v-space {
