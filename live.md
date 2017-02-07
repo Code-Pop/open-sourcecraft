@@ -3,9 +3,6 @@ title: Live
 permalink: "/live/"
 layout: page
 order: 2
+is_live: true
+youtube_embed: https://www.youtube.com/embed/WYHxMwhRmFY
 ---
-
-<div class="frame-wrapper">
-
-<iframe src="https://www.youtube.com/embed/WYHxMwhRmFY" frameborder="0" allowfullscreen></iframe>
-</div>
