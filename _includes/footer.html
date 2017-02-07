@@ -6,7 +6,7 @@
 
     <nav class="nav-footer -inline">
       {% for follow in site.follow %}
-      <a class="item" href="{{ follow.source | append: ".com/" }}{{follow.username }}">
+      <a class="item" href="//{{ follow.source | append: ".com/" }}{{follow.username }}">
         <svg class="icon">
           <use xlink:href="#ico-{{follow.source}}">
         </svg>
@@ -15,7 +15,7 @@
       {% endfor %}
 
       {% for subscribe in site.subscribe %}
-      <a class="item" href="{{subscribe.url}}">
+      <a class="item" href="//{{subscribe.url}}">
         <svg class="icon">
           <use xlink:href="#ico-{{subscribe.source}}">
         </svg>
@@ -24,7 +24,7 @@
       {% endfor %}
     </nav>
 
-    <a class="brand" href="{{ site.baseurl }}/">
+    <a class="brand-footer" href="{{ site.baseurl }}/">
       {% include lgo-osc.svg %}
       <span class="_sr-only">{{ site.title }}</span>
     </a>
