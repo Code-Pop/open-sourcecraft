@@ -31,7 +31,8 @@ description: 'The world runs on Open Source Software.  We speak to the people 
 
 '
 baseurl: "/open-sourcecraft"
-url: 
+url:
+google_analytics: UA-XXXXXXXX-X
 follow:
 - source: facebook
   username: opensourcecraft
