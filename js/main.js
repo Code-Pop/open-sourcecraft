@@ -1,62 +1,4 @@
- $(document).ready(function() {
-
-   // Mobile Navigation Menu Toggle
-   $('.nav-trigger').on('click', function(event) {
-     event.preventDefault();
-     var base = $(this),
-        // Keep html elements within trigger
-        cache = base.children(),
-        // Swap text
-        txt = base.hasClass('_is-open') ? 'Menu' : 'Close';
-
-     base.toggleClass('_is-open').text(txt).append(cache);
-
-     if (base.hasClass('_is-open')) {
-       $('.nav-header').slideDown();
-     } else {
-       $('.nav-header').slideUp();
-     }
-   });
-
-   // Media Embed swap
-
-   var url_query = getUrlVars()["media"];
-
-  function videoEmbed(url) {
-    var video_frame  = "<div class=\"frame-wrapper\">";
-        video_frame += "<iframe src=" + url + " frameborder=\"0\" allowfullscreen></iframe>",
-        video_frame += "</div>";
-
-    return video_frame;
-  }
-
-
-   if ( window.location.href.indexOf(url_query) > -1 ) {
-     swapMedia(videoEmbed(url_query));
-   }
-
-   function getUrlVars() {
-     var vars = [], hash;
-     var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-     for(var i = 0; i < hashes.length; i++)
-     {
-         hash = hashes[i].split('=');
-         vars.push(hash[0]);
-         vars[hash[0]] = hash[1];
-     }
-     return vars;
-   }
-
-
-   function swapMedia(video_frame) {
-     $('#mediaContainer > .episode-display').hide();
-     $('#mediaContainer').prepend(video_frame);
-   }
-
-
- });
-
-(function($) {
+;(function($) {
 
   $.fn.extend({
     modal: function(options) {
@@ -98,4 +40,38 @@
   });
 })(jQuery);
 
-$('[data-toggle=modal]').modal();
+
+var ready = function() {
+  // Mobile Navigation Menu Toggle
+  $('.nav-trigger').on('click', function(event) {
+    event.preventDefault();
+    var base = $(this),
+       // Keep html elements within trigger
+       cache = base.children(),
+       // Swap text
+       txt = base.hasClass('_is-open') ? 'Menu' : 'Close';
+
+    base.toggleClass('_is-open').text(txt).append(cache);
+
+    if (base.hasClass('_is-open')) {
+      $('.nav-header').slideDown();
+    } else {
+      $('.nav-header').slideUp();
+    }
+  });
+
+  $('.episode-article a').each(function() {
+    var a = new RegExp('/' + window.location + '/');
+    if(!a.test(this.href) && !$(this).hasClass('button')) {
+      $(this).attr('target', '_blank')
+        .append('<svg class="icon _mini"><use xlink:href=\"#ico-exit\"></svg>');
+
+    }
+  })
+
+  // Modal fire
+  $('[data-toggle=modal]').modal();
+}
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
