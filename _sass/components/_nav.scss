@@ -77,16 +77,23 @@
     }
     &._is-live {
       position: relative;
-      font-style: italic;
       color: #D0011B;
       &::before {
         position: absolute;
         left: 10px;
-        top: 5px;
+        top: 16px;
         font-size: 28px;
-        content: '•';
+        content: '';
+        background: #D0011B;
+        width: 6px;
+        height: 6px;
+        border-radius: 4px;
+        animation-name: blink;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
         @include bp(laptop) {
-          top: 13px;
+          top: 26px;
         }
       }
     }
@@ -95,6 +102,12 @@
       padding: 17px 26px;
     }
   }
+}
+
+@keyframes blink {
+  0% { box-shadow: 0 0 0 0 rgba(#D0011B, 0) }
+  50% { box-shadow: 0 0 0 8px rgba(#D0011B, 0.1), 0 0 0 4px rgba(#D0011B, 0.2)}
+  100% { box-shadow: 0 0 0 0 rgba(#D0011B, 0)}
 }
 
 .-inline {

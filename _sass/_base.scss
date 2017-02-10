@@ -20,11 +20,50 @@ h2 {
 
 h2 {
 	font-weight: 200;
-	text-align: center;
+	// text-align: center;
+}
+
+a {
+	color: $brand-color-primary;
+	stroke: $brand-color-primary;
+	&:visited {
+		color: darken($brand-color-primary, 30%);
+		stroke: darken($brand-color-primary, 30%);
+	}
+	> .icon {
+		margin: 0 0.2em;
+	}
+}
+
+blockquote {
+	position: relative;
+	margin: 0;
+	padding: 0 30px;
+	font-size: 20px;
+	font-style: italic;
+	color: $grey;
+	overflow: hidden;
+	&::before {
+		position: absolute;
+		top: 0;
+		left: -200px;
+		content: '';
+		width: 50%;
+		height: 200%;
+		background: $brand-color-secondary;
+		-webkit-transform: rotate(40deg);
+		transform: rotate(40deg);
+		opacity: 0.3;
+		z-index: -1;
+	}
+	cite {
+		display: block;
+		margin: 10px 0;
+	}
 }
 
 hr {
-	width: 80%;
+	display: block;
 	height: 1px;
 	margin: 0 auto;
 	border: 0;
@@ -32,5 +71,5 @@ hr {
 }
 
 // SVG Logo colors
-.st0{fill:$brand-color-secondary;}
-.st1{fill:$brand-color-primary;}
+.st0{fill:$brand-color-secondary; stroke: none;}
+.st1{fill:$brand-color-primary; stroke: none;}

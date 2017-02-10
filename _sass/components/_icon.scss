@@ -6,4 +6,11 @@
   &.-primary {
       stroke: $brand-color-primary;
   }
+  &.-default {
+    stroke: $grey;
+  }
+  &._mini {
+    width: 16px;
+    height: 16px;
+  }
 }
