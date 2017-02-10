@@ -3,20 +3,24 @@ layout: default
 ---
 
 <article class="article-container">
-  <section id="mediaContainer">
+  <section id="mediaContainer" class="js-video-wrapper">
     <div class="episode-display">
       <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
-      <div id="mediaContent" class="content-card _floating">
-        <a class="button -primary _with-icon" href="?media={{ page.video_embed }}">
+      <div id="mediaContent" class="content-card _floating js-audio-wrapper">
+        {% if page.video_embed != '' %}
+        <a class="button -primary _with-icon" href="?media=video">
           <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
           Watch Now</a>
-        <a class="button -primary _with-icon" href="#">
+        {% endif %}
+        {% if page.audio_embed != '' %}
+        <a class="button -primary _with-icon" href="?media=audio">
           <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
           Listen Now</a>
+        {% endif %}
       </div>
     </div>
   </section>
-  <section class="episode-article article-container">
+  <section class="episode-article">
     <small class="meta">Episode {{ page.episode_number }}</small>
     <h1 class="title">{{ page.title }}</h1>
     <nav class=" _text-left -inline">
@@ -33,12 +37,27 @@ layout: default
         Share
       </a>
     </nav>
-    <hr>
     {{content}}
 
     <div class="v-space">
       <hr>
-      <h2>Show Notes</h2>
+      {% if page.show_tell_embed != '' %}
+      <h2>
+        <svg class="icon -default">
+          <use xlink:href="#ico-show"/>
+        </svg>
+        Show &amp; Tell</h2>
+        <div style="width:60%">
+          <div class="frame-wrapper">
+            <iframe src="{{page.show_tell_embed}}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      {% endif %}
+      <h2>
+        <svg class="icon -default">
+          <use xlink:href="#ico-notes"/>
+        </svg>
+        Notes &amp; Links</h2>
       <ul>
         {% for note in page.notes %}
           <li>{{ note | markdownify }}</li>
