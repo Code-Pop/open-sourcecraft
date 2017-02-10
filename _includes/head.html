@@ -7,7 +7,7 @@
 		{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="keywords" content="{% if page.tags %}{{page.tags | join: ', '}}{% endif%}">
-  
+
 	 <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
 	 <!-- <link rel="mask-icon" href="{{ site.baseurl }}/images/pinned-orange.svg" color="#F3715D"> -->
 	<!-- Styles -->
@@ -36,6 +36,7 @@
   <link type="application/rss+xml" rel="alternate" href="{{ "feed.xml" | prepend: site.baseurl}}" title="{{ site.title | escape }}">
 
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="{{ "/js/turbolinks.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
 	{% include analytics.html %}
 
 </head>
