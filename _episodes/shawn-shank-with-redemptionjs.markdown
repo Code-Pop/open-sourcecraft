@@ -5,8 +5,9 @@ excerpt: 'What''s gotten into you? Have you been eating cheese? She''s not ''tha
   Mexican'', Mom. '
 episode_number: 2
 feature_image: "/uploads/img-default.png"
-audio_embed: 
+audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
 video_embed: https://www.youtube.com/embed/KWA8poPQLVY
+show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
 notes:
 - Here is a note I was thinking about
 - This is another note
