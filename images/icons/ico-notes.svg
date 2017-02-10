@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 119</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Icons" transform="translate(-337.000000, -769.000000)" stroke="#000000">
+            <g id="Group-119" transform="translate(337.000000, 769.000000)">
+                <path d="M17,20.5 L2.5,20.5 C1.396,20.5 0.5,19.604 0.5,18.5 L0.5,2.5 C0.5,1.396 1.396,0.5 2.5,0.5 L19.5,0.5 C20.604,0.5 21.5,1.396 21.5,2.5 L21.5,15.5 L17,20.5 L17,20.5 Z" id="Stroke-5174"></path>
+                <polyline id="Stroke-5175" points="16.5 20.5 16.5 15.5 21.5 15.5"></polyline>
+                <path d="M3,5.5 L19,5.5" id="Stroke-5176"></path>
+                <path d="M3,10.5 L19,10.5" id="Stroke-5177"></path>
+                <path d="M3,15.5 L14,15.5" id="Stroke-5178"></path>
+                <path d="M6.5,18 L6.5,3" id="Stroke-5179"></path>
+            </g>
+        </g>
+    </g>
+</svg>
