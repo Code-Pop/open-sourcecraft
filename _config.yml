@@ -23,6 +23,7 @@ defaults:
     feature_image: ''
     audio_embed: ''
     video_embed: ''
+    show_tell_embed: ''
     notes:
     - ''
 email: dustin@delatore.me
@@ -32,7 +33,7 @@ description: 'The world runs on Open Source Software.  We speak to the people 
 '
 baseurl: "/open-sourcecraft"
 url:
-google_analytics: UA-XXXXXXXX-X
+google_analytics: UA-90157003-1
 follow:
 - source: facebook
   username: opensourcecraft
@@ -48,6 +49,8 @@ subscribe:
 - source: youtube
   url: youtube.com
 markdown: kramdown
+sass:
+  style: compressed
 gems:
 - jekyll-feed
 - jekyll-sitemap
