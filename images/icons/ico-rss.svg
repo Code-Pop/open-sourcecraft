@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="23px" height="21px" viewBox="0 0 23 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 1176</title>
+    <title>Group 1188</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <g id="Icons" transform="translate(-936.000000, -1920.000000)" stroke="#000000">
-            <g id="Group-1176" transform="translate(936.000000, 1920.000000)">
-                <path d="M0,9.5 C8.008,9.5 14.5,15.992 14.5,24" id="Stroke-801"></path>
-                <path d="M0,0.5 C12.979,0.5 23.5,11.021 23.5,24" id="Stroke-802"></path>
-                <path d="M5.5,21 C5.5,22.381 4.381,23.5 3,23.5 C1.619,23.5 0.5,22.381 0.5,21 C0.5,19.619 1.619,18.5 3,18.5 C4.381,18.5 5.5,19.619 5.5,21 L5.5,21 Z" id="Stroke-803"></path>
+        <g id="Icons" transform="translate(-696.000000, -1970.000000)" stroke="#000000">
+            <g id="Group-1188" transform="translate(696.000000, 1970.000000)">
+                <path d="M11.5,11.5 L11.5,20" id="Stroke-812" stroke-linecap="round"></path>
+                <path d="M19.1318,0.5 C21.2128,2.582 22.4998,5.457 22.4998,8.633 C22.4998,11.809 21.2128,14.684 19.1318,16.764" id="Stroke-813" stroke-linecap="round"></path>
+                <path d="M16.3027,3.3291 C17.6607,4.6861 18.4997,6.5601 18.4997,8.6331 C18.4997,10.7031 17.6607,12.5781 16.3027,13.9351" id="Stroke-814" stroke-linecap="round"></path>
+                <path d="M3.8682,0.5 C1.7872,2.582 0.5002,5.457 0.5002,8.633 C0.5002,11.809 1.7872,14.684 3.8682,16.764" id="Stroke-815" stroke-linecap="round"></path>
+                <path d="M6.6963,3.3291 C5.3393,4.6861 4.5003,6.5601 4.5003,8.6331 C4.5003,10.7031 5.3393,12.5781 6.6963,13.9351" id="Stroke-816" stroke-linecap="round"></path>
+                <path d="M14.5,8.5 C14.5,10.156 13.156,11.5 11.5,11.5 C9.844,11.5 8.5,10.156 8.5,8.5 C8.5,6.843 9.844,5.5 11.5,5.5 C13.156,5.5 14.5,6.843 14.5,8.5 L14.5,8.5 Z" id="Stroke-817"></path>
             </g>
         </g>
     </g>

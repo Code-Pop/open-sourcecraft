@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 1045</title>
+    <title>ico-stitcher</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Icons" transform="translate(-840.000000, -961.000000)" stroke="#000000">
-            <g id="Group-1045" transform="translate(841.000000, 961.000000)">
-                <polygon id="Stroke-5644" points="0 18 2 18 2 5 0 5"></polygon>
-                <polygon id="Stroke-5644-Copy-2" points="4 18 6 18 6 5 4 5"></polygon>
-                <polygon id="Stroke-5644-Copy" points="8 18 13 18 13 5 8 5"></polygon>
-                <polygon id="Stroke-5645" points="18.5 17.5 22.5 17.5 22.5 4.5 18.5 4.5"></polygon>
-                <polygon id="Stroke-5646" points="15 21.5 16.5 21.5 16.5 0.5 15 0.5"></polygon>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-stitcher" transform="translate(1.000000, 0.000000)" stroke="#000000">
+            <g id="Page-1">
+                <g id="Icons">
+                    <g id="Group-1045">
+                        <polygon id="Stroke-5644" points="0 18 2 18 2 5 0 5"></polygon>
+                        <polygon id="Stroke-5644-Copy-2" points="4 18 6 18 6 5 4 5"></polygon>
+                        <polygon id="Stroke-5644-Copy" points="8 18 13 18 13 5 8 5"></polygon>
+                        <polygon id="Stroke-5645" points="18.5 18 22.5 18 22.5 5 18.5 5"></polygon>
+                        <polygon id="Stroke-5646" points="15 21.5 16.5 21.5 16.5 0.5 15 0.5"></polygon>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
