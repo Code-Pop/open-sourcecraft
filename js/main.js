@@ -8,33 +8,43 @@
 
       options = $.extend(defaults, options);
 
-      var overlay = "<div id=\"modal_overlay\" class=\"" + options.overlayClass + "\"></div>";
-      $('body').append(overlay);
+      var overlay = document.createElement('div');
+          overlay.className = options.overlayClass;
+          overlay.setAttribute('tabindex', '-1'),
+          overlay.setAttribute('data-toggle', 'close');
 
       return this.each(function() {
 
         var o = options;
 
-
         $(this).click(function(e) {
           e.preventDefault();
-          var modal_id = $(this).attr('href'),
-            overlay_id = '#modal_overlay';
+          var modal_id = $(this).attr('href');
+          $('body').append(overlay);
 
-
-          $(modal_id).removeClass('_is-closed');
-          $(overlay_id).fadeIn(200);
+          // Open Modal
+          show_modal(modal_id, overlay);
 
           // Close modal
-          $('#modal_overlay, [data-toggle=close]').click(function() {
-            close_modal(modal_id);
+          $('[data-toggle=close]').click(function() {
+            close_modal(modal_id, overlay);
           });
+
         });
       });
 
-      function close_modal(modal_id) {
-        $('#modal_overlay').fadeOut(200);
+      function show_modal(modal_id, overlay) {
+        $(modal_id).removeClass('_is-closed')
+        $(modal_id).attr('aria-hidden', 'false');
+        $(overlay).fadeIn(200);
+      }
+
+      function close_modal(modal_id, overlay) {
+        $(overlay).fadeOut(200, function() {
+          $(this).remove();
+        });
         $(modal_id).addClass('_is-closed');
+        $(modal_id).attr('aria-hidden', 'true');
       }
     }
   });
@@ -60,6 +70,14 @@ var ready = function() {
     }
   });
 
+  // If nav triggered then expanded beyond mobile size,
+  // must show nav
+  window.addEventListener('resize', function() {
+    if (window.innerWidth >= 900) {
+      $('nav-header').show();
+    }
+  })
+
   $('.episode-article a').each(function() {
     var a = new RegExp('/' + window.location + '/');
     if(!a.test(this.href) && !$(this).hasClass('button')) {
@@ -73,4 +91,3 @@ var ready = function() {
 }
 
 $(document).ready(ready);
-// $(document).on('page:load', ready);
