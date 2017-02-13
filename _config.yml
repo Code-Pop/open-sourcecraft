@@ -55,11 +55,13 @@ subscribe:
   - source: stitcher
     url: stitcher.com
 markdown: kramdown
+paginate: 2
 sass:
   style: compressed
 gems:
 - jekyll-feed
 - jekyll-sitemap
+- jekyll-paginate
 exclude:
 - Gemfile
 - Gemfile.lock

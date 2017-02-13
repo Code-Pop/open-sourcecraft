@@ -66,8 +66,8 @@ layout: default
 <section class="article-container _v-space">
   <hr>
   <h2 class="_text-center">Latest</h2>
-  {% for episode in sort_episodes offset: 1 %}
-  <article class="">
+  {% for episode in sort_episodes offset: 1 limit: 5 %}
+  <article>
     <div class="content-card">
       <a href="{{ episode.url | prepend: site.baseurl }}">
         <img class="media" src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
@@ -89,4 +89,10 @@ layout: default
     </div>
   </article>
   {% endfor %}
+
+  {% assign episode_length = site.episodes | size %}
+  {% if episode_length > 6 %}
+  <a class="button -primary -border" href="{{ "/episodes/" | prepend: site.baseurl }}">
+    View more</a>
+  {% endif %}
 </section>
