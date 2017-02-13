@@ -1,4 +1,5 @@
 {% assign page_list = site.pages | sort: 'order' %}
+<a class="item" href="#subscribe_modal" data-toggle="modal">Subscribe</a>
 {% for node in page_list %}
   {% unless node.title == null %}
     {% if node.layout == 'page' %}
