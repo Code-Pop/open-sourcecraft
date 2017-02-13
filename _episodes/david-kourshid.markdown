@@ -2,7 +2,8 @@
 title: David Kourshid
 date: 2017-01-30 17:36:00 -05:00
 excerpt: Still in his twenties and his Open Source work already landed him two full-time
-  jobs, one with Microsoft.
+  jobs, one with Microsoft.  Learn about his react-redux-form library, reactive CSS,
+  and his beautiful CSS dogs.
 episode_number: 1
 feature_image: "/uploads/Screenshot%202017-02-13%2016.56.44.jpg"
 audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
