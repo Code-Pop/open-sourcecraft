@@ -42,12 +42,18 @@ follow:
 - source: instagram
   username: opensourcecraft
 subscribe:
-- source: podcast
-  url: podcast.com
-- source: stitcher
-  url: stitcher.com
-- source: youtube
-  url: youtube.com
+  video:
+  - source: podcast
+    url: podcast.com
+  - source: stitcher
+    url: stitcher.com
+  - source: youtube
+    url: youtube.com
+  audio:
+  - source: podcast
+    url: podcast.com
+  - source: stitcher
+    url: stitcher.com
 markdown: kramdown
 sass:
   style: compressed
