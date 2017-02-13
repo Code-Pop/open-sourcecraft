@@ -1,5 +1,5 @@
 ---
-title: Joe Smoke from FoxTail Framework
+title: David Kourshid
 date: 2017-01-30 17:36:00 -05:00
 excerpt: Still in his twenties and his Open Source work already landed him two full-time
   jobs, one with Microsoft.
