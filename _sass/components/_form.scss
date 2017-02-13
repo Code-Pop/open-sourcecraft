@@ -3,7 +3,7 @@
   flex-flow: column;
   @include bp(laptop) {
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: center;
   }
   padding: 10px;
   > .label {
@@ -19,6 +19,12 @@
     @include bp(desktop) {
       width: 450px;
     }
+  }
+}
+
+.form-social {
+  @include bp(laptop) {
+    padding-top: 5px;
   }
 }
 

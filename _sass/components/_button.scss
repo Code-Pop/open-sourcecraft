@@ -4,6 +4,7 @@
   background: #fff;
   text-decoration: none;
   font-weight: 200;
+  cursor: pointer;
   @include bp(laptop) {
     // padding: 20px 26px;
   }
@@ -18,12 +19,12 @@
     &:visited {
       color: $dark-grey;
     }
-    &[type=button],
-    &[type=submit] {
-      background: $dark-grey;
-      color: #fff;
-      stroke: #fff;
-    }
+    // &[type=button],
+    // &[type=submit] {
+    //   background: $dark-grey;
+    //   color: #fff;
+    //   stroke: #fff;
+    // }
     &.-border {
       border: solid 1px $dark-grey;
     }
@@ -34,12 +35,12 @@
     &:visited {
       color: $brand-color-primary;
     }
-    &[type=button],
-    &[type=submit] {
-      background: $brand-color-primary;
-      color: #fff;
-      stroke: #fff;
-    }
+    // &[type=button],
+    // &[type=submit] {
+    //   background: $brand-color-primary;
+    //   color: #fff;
+    //   stroke: #fff;
+    // }
     &.-border {
       border: solid 1px $brand-color-primary;
     }

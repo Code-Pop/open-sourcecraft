@@ -5,6 +5,12 @@
   background: $dark-grey;
   .st0, .st1 {fill: $grey;}
   .icon { stroke: $grey; }
+
+  @include bp(laptop) {
+    nav:last-of-type {
+      float: left;
+    }
+  }
 }
 
 .brand-footer {

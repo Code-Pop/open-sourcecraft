@@ -15,7 +15,21 @@
 
 .media-switch {
 	text-align: right;
+	margin-right: 20px;
+	@include bp(laptop) {
+		margin-right: 0;
+	}
 	&.video {
-		margin-top: -40px;
+		margin-top: 20px;
+		@include bp(laptop) {
+			margin-top: -40px;
+		}
+	}
+}
+
+.show-tell {
+	width: 100%;
+	@include bp(laptop) {
+		width: 60%;
 	}
 }
