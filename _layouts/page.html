@@ -4,9 +4,11 @@ layout: default
 
 <article class="article-container">
   {% if page.youtube_embed %}
-    <div class="frame-wrapper">
-      <iframe src="{{ page.youtube_embed }}" frameborder="0" allowfullscreen></iframe>
-    </div>
+    {% if page.is_live == true %}
+      <div class="frame-wrapper">
+        <iframe src="{{ page.youtube_embed }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    {% endif %}
   {% endif %}
   <h1>{{ page.title }}</h1>
   {{content}}
