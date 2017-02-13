@@ -13,15 +13,6 @@
         <span class="_sr-only">{{follow.source | capitalize }}</span>
       </a>
       {% endfor %}
-
-      {% for subscribe in site.subscribe %}
-      <a class="item" href="//{{subscribe.url}}">
-        <svg class="icon">
-          <use xlink:href="#ico-{{subscribe.source}}">
-        </svg>
-        <span class="_sr-only">{{subscribe.source | capitalize }}</span>
-      </a>
-      {% endfor %}
     </nav>
 
     <a class="brand-footer" href="{{ site.baseurl }}/">
