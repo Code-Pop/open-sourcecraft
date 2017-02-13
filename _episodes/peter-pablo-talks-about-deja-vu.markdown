@@ -1,7 +1,8 @@
 ---
 title: Peter Pablo Talks about Deja Vu
 date: 2017-02-05 14:26:00 -05:00
-excerpt: 'alksdja laisjd laksjd alskdja sidjals kdas dlkasj dlkasmdlaijdlskdajs ldkajs lkdajs lkdas'
+excerpt: alksdja laisjd laksjd alskdja sidjals kdas dlkasj dlkasmdlaijdlskdajs ldkajs
+  lkdajs lkdas
 episode_number: 3
 feature_image: "/uploads/img-default.png"
 audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3

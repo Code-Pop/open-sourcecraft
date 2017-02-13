@@ -32,7 +32,7 @@ description: 'The world runs on Open Source Software.  We speak to the people 
 
 '
 baseurl: "/open-sourcecraft"
-url:
+url: 
 google_analytics: UA-90157003-1
 follow:
 - source: facebook
