@@ -26,7 +26,7 @@
           $(overlay_id).fadeIn(200);
 
           // Close modal
-          $('#modal_overlay').click(function() {
+          $('#modal_overlay, [data-toggle=close]').click(function() {
             close_modal(modal_id);
           });
         });
@@ -43,7 +43,7 @@
 
 var ready = function() {
   // Mobile Navigation Menu Toggle
-  $('.nav-trigger').on('click', function(event) {
+  $('.nav-trigger').click(function(event) {
     event.preventDefault();
     var base = $(this),
        // Keep html elements within trigger
@@ -63,8 +63,7 @@ var ready = function() {
   $('.episode-article a').each(function() {
     var a = new RegExp('/' + window.location + '/');
     if(!a.test(this.href) && !$(this).hasClass('button')) {
-      $(this).attr('target', '_blank')
-        .append('<svg class="icon _mini"><use xlink:href=\"#ico-exit\"></svg>');
+      $(this).attr('target', '_blank');
 
     }
   })
@@ -74,4 +73,4 @@ var ready = function() {
 }
 
 $(document).ready(ready);
-$(document).on('page:load', ready);
+// $(document).on('page:load', ready);
