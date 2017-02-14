@@ -5,8 +5,8 @@ excerpt: Still in his twenties and his Open Source work already landed him two f
   jobs, one with Microsoft.  Learn about his react-redux-form library, reactive CSS,
   and his beautiful CSS dogs.
 episode_number: 1
-feature_image: "/uploads/Screenshot%202017-02-13%2016.56.44.jpg"
-audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
+feature_image: "/uploads/Screenshot%202017-02-13%2016.56.44-5ac59d.jpg"
+audio_embed: https://oscaudio.podbean.com/mf/play/thsd9a/01_-_David_Kourshid_-_Open_SourceCraft.mp3
 video_embed: https://www.youtube.com/embed/KWA8poPQLVY
 show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
 notes:
