@@ -7,8 +7,8 @@ excerpt: Still in his twenties and his Open Source work already landed him two f
 episode_number: 1
 feature_image: "/uploads/Screenshot%202017-02-13%2016.56.44-5ac59d.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/thsd9a/01_-_David_Kourshid_-_Open_SourceCraft.mp3
-video_embed: https://www.youtube.com/embed/KWA8poPQLVY
-show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
+video_embed: https://www.youtube.com/embed/7164uWGl_Lk
+show_tell_embed: https://www.youtube.com/embed/xyeqi-v9E8c
 notes:
 - "[Sassdash Github](https://github.com/davidkpiano/sassdash)"
 - "[react-redux-forms Github](https://github.com/davidkpiano/react-redux-form)"
