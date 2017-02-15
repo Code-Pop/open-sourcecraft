@@ -7,18 +7,18 @@ excerpt: Still in his twenties and his Open Source work already landed him two f
 episode_number: 1
 feature_image: "/uploads/Screenshot%202017-02-13%2016.56.44-5ac59d.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/thsd9a/01_-_David_Kourshid_-_Open_SourceCraft.mp3
-video_embed: https://www.youtube.com/embed/KWA8poPQLVY
-show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
+video_embed: https://www.youtube.com/embed/7164uWGl_Lk
+show_tell_embed: https://www.youtube.com/embed/xyeqi-v9E8c
 notes_text:
-  - "[Sassdash Github](https://github.com/davidkpiano/sassdash)"
-  - "[react-redux-forms Github](https://github.com/davidkpiano/react-redux-form)"
-  - "[Fatt Merchant](https://www.fattmerchant.com/)"
-  - "[Counsyl](https://www.counsyl.com/)"
-  - "[David's CodePens](http://codepen.io/davidkpiano)"
-  - "[RxCSS Github](https://github.com/davidkpiano/RxCSS)"
-  - "[Alex the CSS Husky](http://codepen.io/davidkpiano/pen/wMqXea)"
-  - "[Alex the CSS Husky Reactive](http://codepen.io/davidkpiano/details/866627963d1ea2a5ce1b6d9db5faeaec/)"
-  - "[GitBook](http://gitbook.com)"
+- "[Sassdash Github](https://github.com/davidkpiano/sassdash)"
+- "[react-redux-forms Github](https://github.com/davidkpiano/react-redux-form)"
+- "[Fatt Merchant](https://www.fattmerchant.com/)"
+- "[Counsyl](https://www.counsyl.com/)"
+- "[David's CodePens](http://codepen.io/davidkpiano)"
+- "[RxCSS Github](https://github.com/davidkpiano/RxCSS)"
+- "[Alex the CSS Husky](http://codepen.io/davidkpiano/pen/wMqXea)"
+- "[Alex the CSS Husky Reactive](http://codepen.io/davidkpiano/details/866627963d1ea2a5ce1b6d9db5faeaec/)"
+- "[GitBook](http://gitbook.com)"
 ---
 
 David started his adventure into open source not with a small undertaking, but with the creation of an entire library called [Sassdash](https://github.com/davidkpiano/sassdash). A Sass implementaion of the [Lodash](https://github.com/lodash/lodash) JavaScript utility library, Sassdash provides many of the utility functions inside SCSS projects.  Later, while at the Mixin meetup in San Francisco, the speaker of the night surprisingly ended up talking about David’s Sassdash library.  After being called out by his friends as the creator of the project, David was invited up to the stage to speak.  He describes the experience as "nerve wracking".

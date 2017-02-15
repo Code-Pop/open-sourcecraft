@@ -7,9 +7,9 @@ excerpt: For the last 4 years Matt has been lucky enough to get paid to work on 
   way to process and distribute large amounts of data.
 episode_number: 3
 feature_image: "/uploads/matt2x.jpg"
-audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
-video_embed: https://www.youtube.com/embed/KWA8poPQLVY
-show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
+audio_embed: https://oscaudio.podbean.com/mf/play/tfifbf/03_-_Matt_Burgess_-_Open_SourceCraft.mp3
+video_embed: https://www.youtube.com/embed/GGoQ39CCcVs
+show_tell_embed: https://www.youtube.com/embed/Z1tZxXMoCJU
 notes_text:
 - "[Matt Burgess Github](https://github.com/mattyb149)"
 - "[Kettle](https://github.com/pentaho/pentaho-kettle)"
