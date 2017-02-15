@@ -44,16 +44,20 @@ follow:
 subscribe:
   video:
   - source: podcast
-    url: podcast.com
+    url: 'https://itunes.apple.com/us/podcast/open-sourcecraft-video/id1205695484 '
   - source: stitcher
-    url: stitcher.com
+    url: http://www.stitcher.com/s?fid=130884&refid=stpr
   - source: youtube
-    url: youtube.com
+    url: https://www.youtube.com/playlist?list=PLJNLwTPak6dgMkkNVe2VbbZ_18gMUFZ64
+  - source: RSS
+    url: https://oscvideo.podbean.com/feed/
   audio:
   - source: podcast
-    url: podcast.com
+    url: https://itunes.apple.com/us/podcast/open-sourcecraft-audio/id1205703955
   - source: stitcher
-    url: stitcher.com
+    url: http://www.stitcher.com/s?fid=130883&refid=stpr
+  - source: RSS
+    url: https://oscaudio.podbean.com/feed/
 markdown: kramdown
 paginate: 2
 sass:
