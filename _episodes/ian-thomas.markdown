@@ -1,5 +1,5 @@
 ---
-title: Shawn Shank with RedemptionJs
+title: Ian Thomas
 date: 2017-02-01 14:26:00 -05:00
 excerpt: Ian's dream was to become an Android developer and it almost didn't happen.  It
   was his open source work that made his employer offer him a job on the spot.
