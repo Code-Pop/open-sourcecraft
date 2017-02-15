@@ -10,11 +10,11 @@ feature_image: "/uploads/Ian.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/42sar2/02_-_Ian_Thomas_-_Open_SourceCraft.mp3
 video_embed: https://www.youtube.com/embed/wcIKGH6n1Cs
 show_tell_embed: https://www.youtube.com/embed/MThptDpZgBw
-notes_text:
-- "[Ian’s (ToxicBakery) Github](https://github.com/ToxicBakery)"
-- "[Rajawali Github](https://github.com/Rajawali/Rajawali)"
-- "[Learn Android Orlando](https://www.meetup.com/learn-android-orlando)"
-- "[ViewPagerTransforms](https://github.com/ToxicBakery/ViewPagerTransforms)"
+notes_text: |
+  * [Ian’s (ToxicBakery) Github](https://github.com/ToxicBakery)
+  * [Rajawali Github](https://github.com/Rajawali/Rajawali)
+  * [Learn Android Orlando](https://www.meetup.com/learn-android-orlando)
+  * [ViewPagerTransforms](https://github.com/ToxicBakery/ViewPagerTransforms)
 ---
 
 Ian Thomas’s career has largely been shaped by his work with Open Source.  Four years ago, Ian was coding flash at a defense contractor and hoping to find a gig as a full time Android developer.  He had applied for a job but his potential employer questioned his lack of professional Android development experience.  He promptly pulled up his GitHub account, showed off his Android projects, and they hired him on the spot.
