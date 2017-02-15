@@ -2,7 +2,7 @@
 title: Live
 permalink: "/live/"
 order: 2
-is_live: true
+is_live: false
 youtube_embed: https://www.youtube.com/embed/WYHxMwhRmFY
 layout: page
 ---
