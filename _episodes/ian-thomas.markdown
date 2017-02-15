@@ -2,7 +2,9 @@
 title: Ian Thomas
 date: 2017-02-01 14:26:00 -05:00
 excerpt: 'Ian''s dream was to become an Android developer and it almost didn''t happen.  It
-  was his open source work that made his employer offer him a job on the spot. '
+  was his open source work that made his employer offer him a job on the spot. Learn
+  about how his own project ViewPagerTransforms and his contributions to Rajawali
+  shaped his career.   '
 episode_number: 2
 feature_image: "/uploads/Ian.jpg"
 audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
