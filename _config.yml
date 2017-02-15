@@ -49,14 +49,14 @@ subscribe:
     url: http://www.stitcher.com/s?fid=130884&refid=stpr
   - source: youtube
     url: https://www.youtube.com/playlist?list=PLJNLwTPak6dgMkkNVe2VbbZ_18gMUFZ64
-  - source: RSS
+  - source: rss
     url: https://oscvideo.podbean.com/feed/
   audio:
   - source: iTunes
     url: https://itunes.apple.com/us/podcast/open-sourcecraft-audio/id1205703955
   - source: stitcher
     url: http://www.stitcher.com/s?fid=130883&refid=stpr
-  - source: RSS
+  - source: rss
     url: https://oscaudio.podbean.com/feed/
 markdown: kramdown
 paginate: 2
