@@ -32,31 +32,31 @@ description: 'The world runs on Open Source Software.  We speak to the people 
 
 '
 baseurl: "/open-sourcecraft"
-url: 
+url:
 google_analytics: UA-90157003-1
 follow:
-- source: facebook
+- source: Facebook
   username: opensourcecraft
-- source: twitter
+- source: Twitter
   username: opensourcecraft
-- source: instagram
+- source: Instagram
   username: opensourcecraft
 subscribe:
   video:
   - source: iTunes
     url: 'https://itunes.apple.com/us/podcast/open-sourcecraft-video/id1205695484 '
-  - source: stitcher
+  - source: Stitcher
     url: http://www.stitcher.com/s?fid=130884&refid=stpr
-  - source: youtube
+  - source: YouTube
     url: https://www.youtube.com/playlist?list=PLJNLwTPak6dgMkkNVe2VbbZ_18gMUFZ64
-  - source: rss
+  - source: Rss
     url: https://oscvideo.podbean.com/feed/
   audio:
   - source: iTunes
     url: https://itunes.apple.com/us/podcast/open-sourcecraft-audio/id1205703955
-  - source: stitcher
+  - source: Stitcher
     url: http://www.stitcher.com/s?fid=130883&refid=stpr
-  - source: rss
+  - source: Rss
     url: https://oscaudio.podbean.com/feed/
 markdown: kramdown
 paginate: 2

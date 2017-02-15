@@ -8,9 +8,9 @@
       {% for follow in site.follow %}
       <a class="item" href="//{{ follow.source | append: ".com/" }}{{follow.username }}">
         <svg class="icon">
-          <use xlink:href="#ico-{{follow.source}}">
+          <use xlink:href="#ico-{{ follow.source | downcase }}">
         </svg>
-        <span class="_sr-only">{{follow.source | capitalize }}</span>
+        <span class="_sr-only">{{ follow.source }}</span>
       </a>
       {% endfor %}
     </nav>
