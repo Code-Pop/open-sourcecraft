@@ -7,9 +7,9 @@ excerpt: 'Ian''s dream was to become an Android developer and it almost didn''t 
   shaped his career.   '
 episode_number: 2
 feature_image: "/uploads/Ian.jpg"
-audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
-video_embed: https://www.youtube.com/embed/KWA8poPQLVY
-show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
+audio_embed: https://oscaudio.podbean.com/mf/play/42sar2/02_-_Ian_Thomas_-_Open_SourceCraft.mp3
+video_embed: https://www.youtube.com/embed/wcIKGH6n1Cs
+show_tell_embed: https://www.youtube.com/embed/MThptDpZgBw
 notes:
 - "[Ian’s (ToxicBakery) Github](https://github.com/ToxicBakery)"
 - "[Rajawali Github](https://github.com/Rajawali/Rajawali)"
