@@ -6,7 +6,7 @@ excerpt: For the last 4 years Matt has been lucky enough to get paid to work on 
   on the Apache Nifi project, a data flow management system that provides a visual
   way to process and distribute large amounts of data.
 episode_number: 3
-feature_image: "/uploads/matt.jpg"
+feature_image: "/uploads/matt2x.jpg"
 audio_embed: https://codepop.podbean.com/mf/play/ah6arx/AintGotNoRSpec.mp3
 video_embed: https://www.youtube.com/embed/KWA8poPQLVY
 show_tell_embed: https://www.youtube.com/embed/KWA8poPQLVY
