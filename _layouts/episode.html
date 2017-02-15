@@ -53,16 +53,14 @@ layout: default
           </div>
         </div>
       {% endif %}
+      {% if page.notes_text %}
       <h2>
         <svg class="icon -default">
           <use xlink:href="#ico-notes"/>
         </svg>
         Notes &amp; Links</h2>
-      <ul>
-        {% for note in page.notes %}
-          <li>{{ note | markdownify }}</li>
-        {% endfor %}
-      </ul>
+          {{ page.notes_text | markdownify }}
+        {% endif %}
     </div>
   </section>
 </article>

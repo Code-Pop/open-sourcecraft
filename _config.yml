@@ -24,8 +24,7 @@ defaults:
     audio_embed: ''
     video_embed: ''
     show_tell_embed: ''
-    notes:
-    - ''
+    notes_text: ''
 email: dustin@delatore.me
 description: 'The world runs on Open Source Software.  We speak to the people who
   shape our world.
