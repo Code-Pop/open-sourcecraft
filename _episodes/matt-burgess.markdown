@@ -10,12 +10,12 @@ feature_image: "/uploads/matt2x.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/tfifbf/03_-_Matt_Burgess_-_Open_SourceCraft.mp3
 video_embed: https://www.youtube.com/embed/GGoQ39CCcVs
 show_tell_embed: https://www.youtube.com/embed/Z1tZxXMoCJU
-notes_text:
-- "[Matt Burgess Github](https://github.com/mattyb149)"
-- "[Kettle](https://github.com/pentaho/pentaho-kettle)"
-- "[Apache NiFi](https://nifi.apache.org/)"
-- "[Pentaho](http://www.pentaho.com/)"
-- "[Hortonworks](http://hortonworks.com/)"
+notes_text: |-
+  * [Matt Burgess Github](https://github.com/mattyb149)
+  * [Kettle](https://github.com/pentaho/pentaho-kettle)
+  * [Apache NiFi](https://nifi.apache.org/)
+  * [Pentaho](http://www.pentaho.com/)
+  * [Hortonworks](http://hortonworks.com/)
 ---
 
 Somehow for the last 4 years Matt Burgess has been paid to work full time on open source projects.  How did he land such great gigs?  Well, his path with Open Source started at Pentaho and then led to Hortonworks, the software company that focuses on the development and support of Apache Hadoop.  Hortonworks uses a sort of ‘trickle-up economics’ system, allowing them to pay full-time software developers to work on open source projects.
