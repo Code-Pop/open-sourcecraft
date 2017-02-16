@@ -43,19 +43,21 @@ blockquote {
 	font-style: italic;
 	color: $grey;
 	overflow: hidden;
-	&::before {
-		position: absolute;
-		top: 0;
-		left: -200px;
-		content: '';
-		width: 50%;
-		height: 200%;
-		background: $brand-color-secondary;
-		-webkit-transform: rotate(40deg);
-		transform: rotate(40deg);
-		opacity: 0.3;
-		z-index: -1;
-	}
+	border-left: solid 4px $brand-color-secondary;
+	background: rgba($brand-color-secondary, 0.1);
+	// &::before {
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: -200px;
+	// 	content: '';
+	// 	width: 50%;
+	// 	height: 200%;
+	// 	background: $brand-color-secondary;
+	// 	-webkit-transform: rotate(40deg);
+	// 	transform: rotate(40deg);
+	// 	opacity: 0.3;
+	// 	z-index: -1;
+	// }
 	cite {
 		display: block;
 		margin: 10px 0;

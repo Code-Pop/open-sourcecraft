@@ -104,13 +104,12 @@ var ready = function() {
     });
   });
 
-  // $('.episode-article a').each(function() {
-  //   var a = new RegExp('/' + window.location + '/');
-  //   if(!a.test(this.href) && !$(this).hasClass('button') ) {
-  //     $(this).attr('target', '_blank');
-  //
-  //   }
-  // });
+  $('.js-target-blank a').each(function() {
+    var a = new RegExp('/' + window.location + '/');
+    if(!a.test(this.href)) {
+      $(this).attr('target', '_blank');
+    }
+  });
 
   // Modal fire
   $('[data-toggle=modal]').modal();

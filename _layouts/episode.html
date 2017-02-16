@@ -37,15 +37,16 @@ layout: default
         Share
       </a>
     </nav>
-    {{content}}
 
-    <div class="_v-space">
+    <div class="js-target-blank">
+      {{content}}
+    </div>
+
+    <div class="_v-space js-target-blank">
       <hr>
       {% if page.show_tell_embed != '' %}
       <h2>
-        <svg class="icon -default">
-          <use xlink:href="#ico-show"/>
-        </svg>
+        <svg class="icon -default"><use xlink:href="#ico-show"/></svg>
         Show &amp; Tell</h2>
         <div class="show-tell">
           <div class="frame-wrapper">
@@ -55,9 +56,7 @@ layout: default
       {% endif %}
       {% if page.notes_text %}
       <h2>
-        <svg class="icon -default">
-          <use xlink:href="#ico-notes"/>
-        </svg>
+        <svg class="icon -default"><use xlink:href="#ico-notes"/></svg>
         Notes &amp; Links</h2>
           {{ page.notes_text | markdownify }}
         {% endif %}
