@@ -7,7 +7,7 @@ youtube_embed: https://www.youtube.com/embed/WYHxMwhRmFY
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm going to do my best over the next few weeks to stream interviews live.  If you're interested in tuning in, you'll want to [follow us on twitter](http://twitter.com/opensourcecraft), [like us on facebook](http://facebook.com/opensourcecraft), [subscribe on youtube](https://www.youtube.com/channel/UCa1zuotKU4Weuw_fLRnPv0A), or [follow me on Periscope](https://www.periscope.tv/greggpollack).  Below is a tentative schedule of upcoming interviews.
 
 ## Upcoming Episodes
 
