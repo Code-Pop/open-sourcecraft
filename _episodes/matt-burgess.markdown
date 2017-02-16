@@ -23,7 +23,7 @@ Somehow for the last 4 years Matt Burgess has been paid to work full time on ope
 Matt’s first commit was to [Kettle](https://github.com/pentaho/pentaho-kettle), a data integration tool by Pentaho, an experience he recalls as both terrifying and exhilarating. Terrified because his code was going out to a large community that could all see, enjoy, and perhaps criticize his code.  To be able to provide something of value to a much larger audience than just a small job team was also exhilarating.
 
 > Matt inspires me through his constant thirst for innovation that may only be matched by his meticulous attention to detail as well as his need to understand complex problems. This allows him to provide scalable and performant world class quality software and see solutions to problems (across projects) that mere mortals can only dream of.”
-><cite>-- Scott Asian
+><cite>-- Scott Aslan
 
 The open source project Matt is currently working on is [Apache NiFi](https://nifi.apache.org/), a dataflow management system that provides a visual way to process and distribute large amounts of data. In developing the tool, Matt has also added a feature that tracks data lineage.  This refers to the ability to track where the data came from, where it’s gone, and what has changed along the way. You can even replay that exact same provenance flow.  Be sure to check out his Show & Tell video which shows off the project.
 
