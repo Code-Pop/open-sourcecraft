@@ -50,6 +50,10 @@
     > .icon {
       margin-right: 6px;
       margin-bottom: -7px;
+      &._mini {
+        margin-bottom: -2px;
+      }
     }
+
   }
 }
