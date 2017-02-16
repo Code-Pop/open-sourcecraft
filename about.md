@@ -4,9 +4,10 @@ permalink: "/about/"
 order: 3
 faqs:
 - question: Ask question?
-  answer: Answer question. Can use *markdown*
-- question: 
-  answer: 
+  answer: |-
+    In the world of software development many applications need to have the same features.  For example, you may need to build a store to sell your widgets.  Thankfully, you don’t need to hire a coder to program a store from scratch.  Many developers have been kind enough to post their store code online, and you can just choose to use theirs.  Aside from saving development costs, there are lots of benefits to using shared code:
+- question: Other question
+  answer: asdaosdjaosi aidoj aosidj as
 layout: page
 ---
 

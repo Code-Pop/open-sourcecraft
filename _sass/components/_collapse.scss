@@ -1,0 +1,33 @@
+.collapse-toggle {
+  > .icon {
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(90deg);
+  }
+
+  &._is-open {
+    > .icon {
+      transform: rotate(-90deg);
+    }
+  }
+}
+.collapse-content {
+  display: block;
+  overflow: hidden;
+  &._is-closed {
+    position: relative;
+    max-height: 150px;
+    &::after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 40px;
+      background: none; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(rgba(#fff, 0), rgba(#fff, 1)); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgba(#fff, 0), rgba(#fff, 1)); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgba(#fff, 0), rgba(#fff, 1)); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgba(#fff, 0), rgba(#fff, 1)); /* Standard syntax */
+      content: '';
+    }
+  }
+}

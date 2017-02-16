@@ -14,11 +14,17 @@ layout: default
     <h1>{{ page.title }}</h1>
 
     {% if page.faqs %}
+      {% assign faq_count = 0 %}
       {% for faq in page.faqs %}
-        <h4>{{ faq.question }}</h4>
-        <div class="">
+        {% capture faq_count %}{% increment i %}{% endcapture %}
+        <section id="faq_{{ faq_count }}" class="collapse-content _is-closed">
+          <h3>{{ faq.question }}</h3>
           {{ faq.answer | markdownify }}
-        </div>
+        </section>
+        <a class="button -primary _with-icon collapse-toggle" href="#faq_{{ faq_count }}" data-toggle="collapse">
+          <svg class="icon _mini"><use xlink:href="#ico-arrow-right-sq" /></svg>
+          Show more
+        </a>
       {% endfor %}
     {% endif %}
 
