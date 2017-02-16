@@ -89,17 +89,17 @@ var ready = function() {
 
       if ($(collapse_id).hasClass('_is-closed')) {
         base.toggleClass('_is-open');
-        $(collapse_id).removeClass('_is-closed');
-        // $(collapse_id).slideDown(250, function() {
-        //   $(this).removeClass('_is-closed');
-        // });
+        // $(collapse_id).removeClass('_is-closed');
+        $(collapse_id).slideDown(250, function() {
+          $(this).removeClass('_is-closed');
+        });
 
       } else {
         base.toggleClass('_is-open');
-        $(collapse_id).addClass('_is-closed');
-        // $(collapse_id).slideUp(250, function() {
-        //   $(this).addClass('_is-closed');
-        // });
+        // $(collapse_id).addClass('_is-closed');
+        $(collapse_id).slideUp(250, function() {
+          $(this).addClass('_is-closed');
+        });
       }
     });
   });

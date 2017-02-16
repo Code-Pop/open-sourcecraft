@@ -17,14 +17,16 @@ layout: default
       {% assign faq_count = 0 %}
       {% for faq in page.faqs %}
         {% capture faq_count %}{% increment i %}{% endcapture %}
-        <section id="faq_{{ faq_count }}" class="collapse-content _is-closed">
-          <h3>{{ faq.question }}</h3>
-          {{ faq.answer | markdownify }}
+        <section class="collapse-content">
+          <h3 class="title">{{ faq.question }}</h3>
+          <section id="faq_{{ faq_count }}" class="body _is-closed">
+            {{ faq.answer | markdownify }}
+          </section>
+          <a class="button -primary _with-icon toggle" href="#faq_{{ faq_count }}" data-toggle="collapse">
+            <svg class="icon _mini"><use xlink:href="#ico-arrow-right-sq" /></svg>
+            Show answer
+          </a>
         </section>
-        <a class="button -primary _with-icon collapse-toggle" href="#faq_{{ faq_count }}" data-toggle="collapse">
-          <svg class="icon _mini"><use xlink:href="#ico-arrow-right-sq" /></svg>
-          Show more
-        </a>
       {% endfor %}
     {% endif %}
 
