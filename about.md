@@ -2,6 +2,11 @@
 title: About
 permalink: "/about/"
 order: 3
+faqs:
+- question: Ask question?
+  answer: Answer question. Can use *markdown*
+- question: 
+  answer: 
 layout: page
 ---
 
