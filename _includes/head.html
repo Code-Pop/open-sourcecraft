@@ -17,19 +17,31 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+
+
+  {% if page.id == 'home' %}
+    {% assign sort_episodes = site.episodes | sort: 'episode_number' | reverse %}
+    {% for episode in sort_episodes limit: 1 %}
+    {% assign page_image = episode.feature_image | prepend: site.baseurl | prepend: site.url %}
+    {% endfor %}
+  {% else %}
+    {% assign page_image = page.feature_image | prepend: site.baseurl | prepend: site.url %}
+  {% endif %}
+
+
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@{{ site.follow[2].username }}">
 	<meta name="twitter:domain" content="{{ site.url }}{{ page.url | prepend: site.baseurl }}">
 	<meta name="twitter:creator" content="@{{ site.follow[2].username }}">
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.feature_image | prepend: site.baseurl }}">
+  <meta name="twitter:image" content="{{ page_image }}">
 
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{ site.url }}{{ page.url | prepend: site.baseurl }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{{ site.url }}{{ page.feature_image | prepend: site.baseurl }}" />
+  <meta property="og:image" content="{{ page_image }}" />
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="{{ site.title | escape }}">
 
