@@ -47,7 +47,7 @@ subscribe:
   - source: Stitcher
     url: http://www.stitcher.com/s?fid=130884&refid=stpr
   - source: YouTube
-    url: https://www.youtube.com/playlist?list=PLJNLwTPak6dgMkkNVe2VbbZ_18gMUFZ64
+    url: https://www.youtube.com/channel/UCa1zuotKU4Weuw_fLRnPv0A
   - source: Rss
     url: https://oscvideo.podbean.com/feed/
   audio:
