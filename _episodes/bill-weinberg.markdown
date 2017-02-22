@@ -16,7 +16,7 @@ notes_text: |-
   [Linux Foundation](https://www.linuxfoundation.org/)
 ---
 
-Bill has seen the open source community evolve over the last twenty years, and he’s had a front-row seat.  Currently, as a Senior Director and Analyst for Open Source Strategy at the [Linux Foundation](https://www.linuxfoundation.org/), he helps companies be more successful by implementing open source.  He see’s open source as a methodology for “getting work done,”  and helps organizations validate if it’s the right solution for them, and if yes, how to properly execute.
+Bill has seen the open source community evolve over the last twenty years, and he’s had a front-row seat.  Currently, as a Senior Director and Analyst for Open Source Strategy at the [Linux Foundation](https://www.linuxfoundation.org/), he helps companies be more successful by implementing open source.  He see’s open source as a methodology for “getting work done,”  and helps organizations validate if it’s the right solution for them, and if yes, how to properly execute. 
 
 One good example of this is The Linux Foundation’s relationship with Microsoft, helping Microsoft become a more open source friendly company.  At one point back in 2011 Microsoft became one of the leading contributors to Linux, as they added functionality to ensure it ran well inside Windows and their Azure hosting platform.  On Github, Microsoft is now the biggest open source [corporate contributor](http://www.infoworld.com/article/3121792/open-source-tools/whos-no-1-in-open-source-microsoft.html) in the world.  
 
