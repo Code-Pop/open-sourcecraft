@@ -36,8 +36,6 @@ google_analytics: UA-90157003-1
 follow:
 - source: Facebook
   username: opensourcecraft
-- source: Twitter
-  username: osourcecraft
 - source: Instagram
   username: opensourcecraft
 subscribe:
