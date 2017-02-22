@@ -7,7 +7,7 @@ youtube_embed: https://www.youtube.com/embed/WYHxMwhRmFY
 layout: page
 ---
 
-I'm going to do my best over the next few weeks to stream interviews live.  If you're interested in tuning in, you'll want to [follow us on twitter](http://twitter.com/opensourcecraft), [like us on facebook](http://facebook.com/opensourcecraft), [subscribe on youtube](https://www.youtube.com/channel/UCa1zuotKU4Weuw_fLRnPv0A), or [follow me on Periscope](https://www.periscope.tv/greggpollack).  Below is a tentative schedule of upcoming interviews.
+I'm going to do my best over the next few weeks to stream interviews live.  If you're interested in tuning in, you'll want to [follow us on twitter](http://twitter.com/osourcecraft), [like us on facebook](http://facebook.com/opensourcecraft), [subscribe on youtube](https://www.youtube.com/channel/UCa1zuotKU4Weuw_fLRnPv0A), or [follow me on Periscope](https://www.periscope.tv/greggpollack).  Below is a tentative schedule of upcoming interviews.
 
 ## Upcoming Episodes
 
