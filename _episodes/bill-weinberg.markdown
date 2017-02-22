@@ -9,7 +9,7 @@ excerpt: 'Bill has seen the open source community evolve over the last twenty ye
 episode_number: 4
 feature_image: "/uploads/BillBx2.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/gh7s2s/04_-_Bill_Weinberg_-_Open_SourceCraft3.mp3
-video_embed: https://www.youtube.com/watch?v=dpGmVAjQmq0&feature=youtu.be
+video_embed: https://www.youtube.com/embed/dpGmVAjQmq0
 notes_text: |-
   [Bill Weinberg on LinkedIn](https://www.linkedin.com/in/williamweinberg/)
   [Bill’s Consultancy, Linux Pundit](http://www.linuxpundit.com/)
