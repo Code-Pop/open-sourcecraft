@@ -20,8 +20,8 @@ Bill has seen the open source community evolve over the last twenty years, and h
 
 One good example of this is The Linux Foundation’s relationship with Microsoft, helping Microsoft become a more open source friendly company.  At one point back in 2011 Microsoft became one of the leading contributors to Linux, as they added functionality to ensure it ran well inside Windows and their Azure hosting platform.  On Github, Microsoft is now the biggest open source [corporate contributor](http://www.infoworld.com/article/3121792/open-source-tools/whos-no-1-in-open-source-microsoft.html) in the world.  
 
-“Bill’s vast experience and knowledge of open source from its early days through the present is impressive and irreplaceable. Bill possesses a very strategic and long-term vision which he utilizes to the benefit of his clients. He can and does draw examples and proof points from 20+ years in the industry, and is the best man to build and explain open source strategy to a team of execs.”
-Nick Yeates, Open Source Business Strategist
+> Bill’s vast experience and knowledge of open source from its early days through the present is impressive and irreplaceable. Bill possesses a very strategic and long-term vision which he utilizes to the benefit of his clients. He can and does draw examples and proof points from 20+ years in the industry, and is the best man to build and explain open source strategy to a team of execs.
+><cite>-- Nick Yeates, Open Source Business Strategist
 
 Nick and Bill worked on a strategy project for the Armed Forces & Military to help them use open source methodologies to deliver software faster and more efficiently.  As you can imagine, this is no easy task as the military contractor universe isn’t the most collaborative environment, and there isn’t always great incentive to share code.  One strategy they brought to the military was  “InnerSource,” which is taking the lessons learned from developing open source software and applying them to the way companies develop software internally.  Paypal is a [huge proponent](https://paypal.github.io/InnerSourceCommons/) of this methodology.
 
