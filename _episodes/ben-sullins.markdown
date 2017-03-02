@@ -1,7 +1,6 @@
 ---
 title: Ben Sullins
 date: 2017-03-01 07:37:00 -05:00
-published: false
 excerpt: Ben is passionate about making data meaningful and teaching about it online.  Aside
   from teaching courses on both PluralSight and Lynda, he recently launched a YouTube
   channel decoding the economics of Tesla.
