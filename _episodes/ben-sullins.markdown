@@ -10,13 +10,13 @@ audio_embed: https://oscaudio.podbean.com/mf/play/mqqpaa/05_-_Ben_Sullins_-_Open
 video_embed: https://www.youtube.com/embed/658J7MQofms
 show_tell_embed: https://www.youtube.com/embed/v9fasBt4_a8
 notes_text: |-
-  [Ben’s Blog](http://bensullins.com/)
-  [Ben’s PluralSight courses](https://www.pluralsight.com/authors/ben-sullins)
-  [Ben’s Lynda courses](https://www.lynda.com/Ben-Sullins/8446291-1.html)
-  [Apache Kofka](https://kafka.apache.org)
-  [Teslanomics YouTube Channel](https://www.youtube.com/channel/UCbEbf0-PoSuHD0TgMbxomDg)
-  [AirBnB Engineering & Data Science](http://airbnb.io/)
-  [Presto Query Engine](https://prestodb.io/)
+  * [Ben’s Blog](http://bensullins.com/)
+  * [Ben’s PluralSight courses](https://www.pluralsight.com/authors/ben-sullins)
+  * [Ben’s Lynda courses](https://www.lynda.com/Ben-Sullins/8446291-1.html)
+  * [Apache Kofka](https://kafka.apache.org)
+  * [Teslanomics YouTube Channel](https://www.youtube.com/channel/UCbEbf0-PoSuHD0TgMbxomDg)
+  * [AirBnB Engineering & Data Science](http://airbnb.io/)
+  * [Presto Query Engine](https://prestodb.io/)
 ---
 
 Ben discovered his passion for data early in his career when he was working the help desk at MCI telecom, back in 1997.  Using Microsoft Access and Excel he helped create reports for the sales teams that provided key metrics, allowing them to work more effectively.  After Verizon bought MCI and laid everyone off, he jumped right into business intelligence consulting.
