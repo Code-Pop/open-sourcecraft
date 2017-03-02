@@ -7,8 +7,8 @@ excerpt: Ben is passionate about making data meaningful and teaching about it on
 episode_number: 5
 feature_image: "/uploads/Ben2.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/mqqpaa/05_-_Ben_Sullins_-_Open_SourceCraft.mp3
-video_embed: 658J7MQofms
-show_tell_embed: v9fasBt4_a8
+video_embed: https://www.youtube.com/embed/658J7MQofms
+show_tell_embed: https://www.youtube.com/embed/v9fasBt4_a8
 notes_text: |-
   [Ben’s Blog](http://bensullins.com/)
   [Ben’s PluralSight courses](https://www.pluralsight.com/authors/ben-sullins)
