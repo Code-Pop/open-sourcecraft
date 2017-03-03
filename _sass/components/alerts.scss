@@ -1,0 +1,10 @@
+.alert {
+  padding: 0.5rem 1rem;
+  margin: 10px 0;
+  border: solid 1px;
+  &.-success {
+    border-color: #9dcc7a;
+    background: scale_color(#9dcc7a, $lightness: 80%);
+    color: #9dcc7a;
+  }
+}

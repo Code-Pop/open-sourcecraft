@@ -70,6 +70,34 @@ var ready = function() {
     }
   });
 
+  // Contact aJax
+  $('#contactForm').submit(function(e) {
+    e.preventDefault();
+    var contactData = {
+      'name': $('input[name=name]').val(),
+      'email': $('input[name=email]').val(),
+      'message': $('textarea[name=message]').val()
+    }
+    $.ajax({
+      method: 'POST',
+      url: 'https://formspree.io/gregg@codepop.com',
+      data: contactData,
+      dataType: 'json'
+    })
+    .done(function(data) {
+
+      if (! data.success ) {
+
+      } else {
+        var successMessage = document.createElement('div');
+            successMessage.className = 'alert -success';
+            successMessage.innerHTML = '<p>Thank You, we will be in touch!</p>';
+
+        $('#contactForm').replaceWith(successMessage);
+      }
+    });
+  });
+
   // If nav triggered then expanded beyond mobile size,
   // must show nav
   window.addEventListener('resize', function() {

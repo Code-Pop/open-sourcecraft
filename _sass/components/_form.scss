@@ -1,3 +1,37 @@
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  > .input {
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    background: $light-grey;
+  }
+  > .label {
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  > .button {
+    align-self: flex-start;
+    font-size: 16px;
+  }
+  > .help-text {
+    display: block;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: $grey;
+    &.-error {
+      color: red;
+    }
+  }
+}
+
 .email-form {
   display: flex;
   flex-flow: column;
@@ -32,7 +66,7 @@
   position: relative;
   > .input {
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
   	padding: 15px 20px;
   	margin: 0;
