@@ -7,6 +7,7 @@ excerpt: Just back from PyCaribbean, Trey is passionate about educating the worl
   nothing short of inspirational.
 episode_number: 6
 feature_image: "/uploads/Trey.jpg"
+audio_embed: https://oscaudio.podbean.com/mf/play/srjwgw/06_-_Trey_Hunner_-_Open_SourceCraft.mp3
 notes_text: |-
   * [Trey’s company - truthful technology](http://truthful.technology/)
   * [PyCaribbean](http://pycaribbean.com/)
