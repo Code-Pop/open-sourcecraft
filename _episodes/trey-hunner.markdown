@@ -1,7 +1,6 @@
 ---
 title: Trey Hunner
 date: 2017-03-09 15:32:00 -05:00
-published: false
 excerpt: Just back from PyCaribbean, Trey is passionate about educating the world
   about Python.  I found his journey from freelancer to paid technical instructor
   nothing short of inspirational.
