@@ -18,7 +18,7 @@ notes_text: |-
   * [FlatIron School’s Online Web Developer course ](https://flatironschool.com/programs/online-web-developer-career-course/)
 ---
 
-After college, Shana Moore found herself working as a personal assistant, a job that she wasn’t passionate about.  After several years of feeling unfulfilled, she discovered that she had a passion for coding.  Roughly two years after that discovery she’s now a full-time software engineer and just returned from speaking at Rubyconf Australia.  Her story of following her passion, having a growth mindset, and changing careers is nothing short of inspiring.  
+After college, Shana Moore found herself working in administrative support, a job that she wasn’t passionate about.  After several years of feeling unfulfilled, she discovered that she had a passion for coding.  Roughly two years after that discovery she’s now a full-time software engineer and just returned from speaking at Rubyconf Australia.  Her story of following her passion, having a growth mindset, and changing careers is nothing short of inspiring.  
 
 Like others in her field, Moore’s passion for code initially came from learning how to manipulate data in excel.  She also wanted to build a mobile app for her successful youtube channel covering beauty, the [Painted Lips Project](https://www.youtube.com/user/paintedlipsproject).  She dove into self-learning with websites like [Code School](http://www.codeschool.com), Team Treehouse, Lynda, and Skillcrush.  She also began attending developer meetups in San Diego such as [Full Stack Talks](https://www.meetup.com/fullstacktalks/) and [Girl Develop It](https://www.girldevelopit.com/chapters/san-diego).  
 
