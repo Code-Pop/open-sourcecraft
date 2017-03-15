@@ -24,7 +24,8 @@ Like others in her field, Moore’s passion for code initially came from learnin
 
 After finding her way to [Railscamp](http://railscamps.com/) in September 2015, Moore found a passion for Ruby and Rails.  This led her to [Railsgirls](http://railsgirls.com/) Los Angeles, where she built her first Rails project.  Hungry to learn more she applied to the [Rubyconf scholar program](http://rubyconf.org/scholarship), which got her a free ride to Rubyconf in Texas where she had a mentor, my friend Jay McGavren (small world).  She accomplished all of this while continuing to work a day job that had nothing to do with coding.  
 
-“If you’re not uncomfortable you’re not growing, so embrace those challenges and discomforts”
+> If you’re not uncomfortable you’re not growing, so embrace those challenges and discomforts
+><cite>-- Shana Moore
 
 Around the same time Moore began to crave a more structured learning path in order to acquire all the skills she needed to make a career switch.  To avoid the cost of a full-time bootcamp, she decided on FlatIron School’s [Online Web Developer](https://flatironschool.com/programs/online-web-developer-career-course/) program which she could complete in her spare time.  
 
