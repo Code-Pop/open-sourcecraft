@@ -32,7 +32,7 @@ layout: page
 
 **We speak to the people who passionately choose to spend their time building the Open Source community.  Not because they have to, but because they love to.**
 
-Open SourceCraft is a passion project produced by [Gregg Pollack](https://www.greggpollack.com), marketing by Christina Lugo, design & development by [Dustin Delatore](https://whosdustin.com), and film production assistance by Erika Galeana.
+Open SourceCraft is a passion project produced by [Gregg Pollack](https://www.greggpollack.com), marketing by Christina Lugo, design & development by [Dustin Delatore](https://whosdustin.com), and film production assistance by [Patrick Daley](http://www.truetransient.com/).
 
 **About the host**
 
