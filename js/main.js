@@ -71,31 +71,47 @@ var ready = function() {
   });
 
   // Contact aJax
-  $('#contactForm').submit(function(e) {
-    e.preventDefault();
-    var contactData = {
-      'name': $('input[name=name]').val(),
-      'email': $('input[name=email]').val(),
-      'message': $('textarea[name=message]').val()
-    }
-    $.ajax({
-      method: 'POST',
-      url: 'https://formspree.io/gregg@codepop.com',
-      data: contactData,
-      dataType: 'json'
-    })
-    .done(function(data) {
-
-      if (! data.success ) {
-
-      } else {
-        var successMessage = document.createElement('div');
-            successMessage.className = 'alert -success';
-            successMessage.innerHTML = '<p>Thank You, we will be in touch!</p>';
-
-        $('#contactForm').replaceWith(successMessage);
+  $('#contactForm').validate({
+    debug: true,
+    errorClass: '-error',
+    rules: {
+      email: {
+        required: true,
+        email: true
       }
-    });
+    },
+    messages: {
+      email: {
+        required: 'We need this so we may respond to your feedback',
+        email: 'It seems your email isn\'t valid'
+      }
+    },
+    errorPlacement: function(err, el) {
+      err.insertAfter(el).addClass('help-text');
+    },
+
+    submitHandler: function(form) {
+      var contactData = {
+        name: $('input[name=name]').val(),
+        email: $('input[name=email]').val(),
+        subject: $('input[name=_subject]').val(),
+        message: $('textarea[name=message]').val(),
+        gotcha: $('input[name=_gotcha]').val()
+      }
+      $.ajax({
+        method: 'POST',
+        url: 'https://formspree.io/gregg@codepop.com',
+        data: contactData,
+        dataType: 'json',
+        success: function(data) {
+          console.log(contactData);
+          $(form).html('<div id="message" class="alert -success"></div>');
+          $('#message').append('<p>Thank You, we will be in touch!</p>');
+        }
+      });
+      return false;
+    }
+
   });
 
   // If nav triggered then expanded beyond mobile size,

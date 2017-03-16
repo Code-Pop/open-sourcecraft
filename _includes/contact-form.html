@@ -1,14 +1,13 @@
 
 <form id="contactForm" class="form">
-
+  <span class="help-text">* Required fields</span>
   <label for="name" class="label">What's your name?</label>
   <input type="text" name="name" class="input" placeholder="Name">
 
-  <label for="email" class="label">What's your email?</label>
-  <input type="email" name="_replyto" class="input" placeholder="Email address">
-  <span class="help-text">This way we may respond to your feedback.</span>
+  <label for="email" class="label">What's your email?*</label>
+  <input type="email" name="email" class="input" placeholder="Email address" required="required">
 
-  <label for="message" class="label">What's your feedback or comment?</label>
+  <label for="message" class="label">What's your feedback or comment?*</label>
   <textarea name="message" rows="8" cols="80" class="input" required="required" placeholder="I like..."></textarea>
 
   <input class='button -primary -border' type="submit" value="Send">

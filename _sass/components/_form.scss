@@ -10,6 +10,11 @@
     font-size: 16px;
     border: none;
     background: $light-grey;
+    &.-error {
+      border: solid 1px #DB4D4D;
+      outline: #DB4D4D;
+      background: scale_color(#DB4D4D, $lightness: 80%);
+    }
   }
   > .label {
     font-weight: 700;
@@ -27,7 +32,7 @@
     font-size: 16px;
     color: $grey;
     &.-error {
-      color: red;
+      color: #DB4D4D;
     }
   }
 }
