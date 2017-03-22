@@ -3,7 +3,7 @@ title: Paulus Schoutsen
 date: 2017-03-22 10:26:00 -04:00
 excerpt: Paulus is the creator and maintainer of Home Assistant, one of the most popular
   home automation platforms on the Internet.  Together we discuss the inspiration,
-  community, and future of the project
+  community, and future of the project.
 episode_number: 8
 feature_image: "/uploads/paulus.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/zh945k/08_-_Paulus_Schoutsen_-_Open_SourceCraft.mp3
