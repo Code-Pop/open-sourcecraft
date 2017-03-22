@@ -18,8 +18,8 @@ Paulus Schoutsen, a senior software engineer at Appfolio, created one of the mos
 
 Schoutsen’s passion for home automation started simply enough when Philips developed Hue Lights, which are lights which can be controlled over your home wifi network.  He immediately purchased one and wrote a simple script to automatically turn the lights on when the sun set.  Deciding that wasn’t efficient enough, because the lights would still come on if he wasn’t home he added presence detection to the program.  He further enhanced the program to bring the lights up slowly beginning 45 minutes before sunset and eventually he released this code as open source so others could use it.  It was one of the first pieces of open source he ever put out, and he described the experience as a scary one,  knowing he was putting his code out in the open where people could see and judge it made him feel quite vulnerable.
 
-Paulus is friendly, cooperative, and helpful. As a skilled engineer his input on issues paves the way for a sustainable solution.
-Fabian Affolter , Senior Engineer at Affolter Engineering
+> Paulus is friendly, cooperative, and helpful. As a skilled engineer his input on issues paves the way for a sustainable solution.
+><cite>-- Fabian Affolter, Senior Engineer at Affolter Engineering
 
 
 One of the key components of sharing open source code is building an audience for the project.  It’s not enough to simply upload source code and hope people find it. So, to build an audience for his project Paulus did two things;  he wrote some good documentation to make sure people would be able to easily get the code up and running, and then he did some self-promotion.  One way he promoted his project was by joining the [Home Automation reddit](https://www.reddit.com/r/homeautomation/) where he posted it and interacted with the community.
