@@ -9,9 +9,9 @@ feature_image: "/uploads/paulus.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/zh945k/08_-_Paulus_Schoutsen_-_Open_SourceCraft.mp3
 video_embed: https://www.youtube.com/embed/osq_2-Qlan0
 show_tell_embed: https://www.youtube.com/embed/NAintVCjij0
-notes_text: "[Home Assistant](https://home-assistant.io/) \n[Home Assistant Chat -
-  Gitter](https://gitter.im/home-assistant/home-assistant)\n[Home Assistant Message
-  Board](https://community.home-assistant.io/)\n[Home Automation reddit](https://www.reddit.com/r/homeautomation/)"
+notes_text: "* [Home Assistant](https://home-assistant.io/) \n* [Home Assistant Chat
+  - Gitter](https://gitter.im/home-assistant/home-assistant)\n* [Home Assistant Message
+  Board](https://community.home-assistant.io/)\n* [Home Automation reddit](https://www.reddit.com/r/homeautomation/)"
 ---
 
 Paulus Schoutsen, a senior software engineer at Appfolio, created one of the most popular home automation platforms on the Internet.  The [Home Assistant](https://home-assistant.io/) open source project was created on September 15, 2014 and has 8,511 commits (that’s more than Angular), 425 contributors, and 101 releases.  Even with his masters degree in Business Information Technology, that’s no small accomplishment. 
