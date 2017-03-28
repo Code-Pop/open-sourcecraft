@@ -2,11 +2,21 @@
 title: Lorena Mesa
 date: 2017-03-28 17:08:00 -04:00
 published: false
-excerpt: How a political activist with a masters degree in Latin American and Latino
-  Studies found a passion for code, went after what she wanted, and became a leader
-  in her community.
+excerpt: How a political activist with a Masters in Latin American and Latino Studies
+  found a passion for code, went after what she wanted, and became a leader in her
+  community.
 episode_number: 9
 feature_image: "/uploads/lorena2.jpg"
+audio_embed: https://oscaudio.podbean.com/mf/play/hrxjk7/09_-_Lorena_Mesa_-_Open_SourceCraft.mp3
+notes_text: |-
+  * [Chicago Python Users Group](http://www.chipy.org/)
+  * [Chi Hacknight](https://chihacknight.org/)
+  * [Kaggle Data Science](https://www.kaggle.com/)
+  * [Metis Data Science Learning](https://www.thisismetis.com/)
+  * [Chicago PyLadies](https://www.meetup.com/Chicago-PyLadies/)
+  * [Girl Develop It](https://www.girldevelopit.com/chapters/chicago)
+  * [Dev Bootcamp Chicago](https://devbootcamp.com/locations/chicago)
+  * [Sprout Social](http://sproutsocial.com/)
 ---
 
 Lorena Mesa has an amazing drive to learn and a strong ability ask for exactly what she wants.  I wish I had been nearly so bold early on in my career as a programmer.  With a B.A. In Political Science & International Studies and a masters in Latin American & Latino Studies you might wonder how that led Lorena Mesa to be a Data Engineer at Sprout Social.  I know I was curious.  
