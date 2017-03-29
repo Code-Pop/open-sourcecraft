@@ -17,6 +17,7 @@ notes_text: |-
   * [Girl Develop It](https://www.girldevelopit.com/chapters/chicago)
   * [Dev Bootcamp Chicago](https://devbootcamp.com/locations/chicago)
   * [Sprout Social](http://sproutsocial.com/)
+  * [Pycon Organizers Manual from the PSF]( https://www.gitbook.com/book/lorenanicole/pycon-organizers-manual/details)
 ---
 
 Lorena Mesa has an amazing drive to learn and a strong ability ask for exactly what she wants.  I wish I had been nearly so bold early on in my career as a programmer.  With a B.A. In Political Science & International Studies and a masters in Latin American & Latino Studies you might wonder how that led Lorena Mesa to be a Data Engineer at Sprout Social.  I know I was curious.  
@@ -30,7 +31,7 @@ For her master’s thesis she wanted to understand the impact of the mortgage cr
 
 After graduating Lorena began to get involved in the [Chicago Python Users Group](http://www.chipy.org/) as well as
  [Code For America](https://www.codeforamerica.org)
- in Chicago which is now [Chi Hacknight](https://chihacknight.org/), Chicago’s weekly event to build, share and learn about civic tech.  Unhappy about the absence of people of color, the absence of women, and how technically advanced some of the talks were, she saw a need she wanted to fill.  After reaching out to a few mentors in the community to get advice, she decided  to start the [Chicago PyLadies](https://www.meetup.com/Chicago-PyLadies/) chapter.  PyLadies mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.
+ in Chicago which has grown into [Chi Hacknight](https://chihacknight.org/), Chicago’s weekly event to build, share and learn about civic tech.  Unhappy about the absence of people of color, the absence of women, and how technically advanced some of the talks were, she saw a need she wanted to fill.  After reaching out to a few mentors in the community to get advice, she decided  to start the [Chicago PyLadies](https://www.meetup.com/Chicago-PyLadies/) chapter.  PyLadies mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.
 
 After going to many local meetups, hackathons, and [Girl Develop It](https://www.girldevelopit.com/chapters/chicago)
  workshops Lorena realized it was time to get more serious about learning code.  She wanted to find a program that best fit her learning style, which turned out to be [Dev Bootcamp Chicago](https://devbootcamp.com/locations/chicago).  After graduation she went right to working at Sprout Social where she’s been for three years.
@@ -39,6 +40,6 @@ Jess Unrein, from PyLadies and Sprout Social said this about her;
 > I've known Lorena for about three years, and in that time she's started communities, advocated on behalf of people who are unable to speak up, and also run a few marathons in her spare time. She's encouraged me every time I doubt myself, and she's always right. Working with her first with PyLadies and now at Sprout Social has been an honor and a privilege.
 ><cite>-- Jess Unrein, Software Engineer
 
-Lorena is also a director at the Python Software Foundation (PSF) just like [Trey Hunner](http://codepop.com/open-sourcecraft/episodes/trey-hunner/) the Python teacher I interviewed in San Diego.  At the PSF she helps spread the word about the roles of the foundation, one of them providing grants to projects that evangelize Python, like meetup groups.  She’s also helping create documentation on how anyone can run their own PyCon conference in their area, to help empower their local communities no matter where they are in the world or what language they speak.
+Lorena is also a director at the Python Software Foundation (PSF) just like [Trey Hunner](http://codepop.com/open-sourcecraft/episodes/trey-hunner/) the Python teacher I interviewed in San Diego.  At the PSF she helps spread the word about the roles of the foundation, one of them providing grants to projects that evangelize Python, like meetup groups.  She’s also helping create documentation on [how anyone can run their own PyCon conference](https://www.gitbook.com/book/lorenanicole/pycon-organizers-manual/details) in their area, to help empower their local communities no matter where they are in the world or what language they speak.
 
 As a part of the new data science team at Sprout Social, Lorena is passionate about exploring is the ethics of data collection, something I’d never heard about.  More specifically data ethics asks what is the lifecycle of data, when does it need to get deleted, what auditing should be done, how accessible is the data, and how can it be used.  Given that 90% of the world’s data has been created in the last 2 years alone, this is sure to be a bigger topic into the future.  I feel relieved knowing that Lorena is on the job.  
