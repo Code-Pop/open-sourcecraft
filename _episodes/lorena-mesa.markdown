@@ -1,13 +1,13 @@
 ---
 title: Lorena Mesa
 date: 2017-03-28 17:08:00 -04:00
-published: false
 excerpt: How a political activist with a Masters in Latin American and Latino Studies
   found a passion for code, went after what she wanted, and became a leader in her
   community.
 episode_number: 9
 feature_image: "/uploads/lorena2.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/hrxjk7/09_-_Lorena_Mesa_-_Open_SourceCraft.mp3
+video_embed: https://www.youtube.com/embed/dufgGDEYreo
 notes_text: |-
   * [Chicago Python Users Group](http://www.chipy.org/)
   * [Chi Hacknight](https://chihacknight.org/)
