@@ -82,10 +82,12 @@ id: home
     </div>
   </article>
   {% endfor %}
+</section>
 
-  {% assign episode_length = site.episodes | size %}
-  {% if episode_length > 6 %}
-  <a class="button -primary -border" href="{{ "/episodes/" | prepend: site.baseurl }}">
-    View more</a>
-  {% endif %}
+{% assign episode_length = site.episodes | size %}
+{% if episode_length > 6 %}
+<section class="_v-space _text-center">
+<a class="button -primary -border" href="{{ "/episodes/" | prepend: site.baseurl }}">
+  View more</a>
+{% endif %}
 </section>
