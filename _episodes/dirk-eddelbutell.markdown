@@ -23,8 +23,8 @@ Using Open Source to solve problems appeals to him for two different reasons.  F
 
 After using the S language, Octave, and Matlab to do econometrics he fell in love with the [R language](https://www.r-project.org/) in 2001, the open source software environment for statistical computing and graphics.  Since then he uses R a lot for his full time job and has been contributing back to the R open source project for the last 15 years.  He maintains many libraries for R including [Rcpp](http://dirk.eddelbuettel.com/code/rcpp.html), which makes it easy to interface C or C++ code in R packages.  He even wrote a book on the subject called [Seemless R and C++ Integration with Rcpp](http://www.rcpp.org/book/).
 
-Dirk's an immensely experienced and talented open source developer.  For a newer / more junior person like myself this can be intimidating at first, but Dirk has always treated me as an equal and has been both generous with his time. 
-Carl Boettiger, Rocker Project
+> Dirk's an immensely experienced and talented open source developer.  For a newer / more junior person like myself this can be intimidating at first, but Dirk has always treated me as an equal and has been both generous with his time. 
+><cite>-- Carl Boettiger, Rocker Project
 
 Carl worked with Dirk on the [Rocker project](https://github.com/rocker-org/rocker) which provides Docker containers which are useful to users of the R Language.  
 
