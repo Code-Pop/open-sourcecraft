@@ -1,11 +1,12 @@
 ---
 title: Dirk Eddelbutell
 date: 2017-04-04 14:23:00 -04:00
-published: false
 excerpt: For the last 15 years Dirk has been contributing to both Debian Linux and
-  the R language.  Learn about how he uses code to do Financial Econometrics.
+  the R language.  Learn how he uses code to do Financial Econometrics.
 episode_number: 10
 feature_image: "/uploads/dirk2.jpg"
+audio_embed: https://oscaudio.podbean.com/mf/play/hdrps7/10_-_Dirk_Eddelbuettel_-_Open_SourceCraft.mp3
+video_embed: https://www.youtube.com/embed/KiLMGMHFb_I
 notes_text: |-
   * [Debian Linux](https://www.debian.org/)
   * [R language](https://www.r-project.org/)
