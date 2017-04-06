@@ -1,5 +1,5 @@
 ---
-title: Dirk Eddelbuttel
+title: Dirk Eddelbuettel
 date: 2017-04-04 14:23:00 -04:00
 excerpt: For the last 15 years Dirk has been contributing to both Debian Linux and
   the R language.  Learn how he uses code to do Financial Econometrics.
@@ -15,7 +15,7 @@ notes_text: |-
   * [Rocker project](https://github.com/rocker-org/rocker)
 ---
 
-I met Dirk Eddelbutell in the offices of Ketchum Trading in downtown Chicago on a cold Monday evening.  Working there as a Senior Financial Engineer it shouldn’t surprise you that he has a degree in Financial Econometrics, a term I admittedly had to look up.  In the interview he explained to me that it refers to the study of statistics in economics.  
+I met Dirk Eddelbuettel in the offices of Ketchum Trading in downtown Chicago on a cold Monday evening.  Working there as a Senior Financial Engineer it shouldn’t surprise you that he has a degree in Financial Econometrics, a term I admittedly had to look up.  In the interview he explained to me that it refers to the study of statistics in economics.  
 
 Dirk has always felt that the propagation of Open Source was inevitable, so he looked to leverage it to solve problems throughout his career.  His passion for [Debian Linux](https://www.debian.org/) started in 1994, a flavor of linux that tackled the hard problems like modularity well.  After sending an email to the Debian working group he started contributing, where he’s helped manage Debian packages for over 20 years now.  I don’t think I’ve met many open source developers that have contributed for over 20 years, I was impressed.
 
