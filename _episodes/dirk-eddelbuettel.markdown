@@ -2,14 +2,14 @@
 title: Dirk Eddelbuettel
 date: 2017-04-04 14:23:00 -04:00
 excerpt: For the last 15 years Dirk has been contributing to both Debian Linux and
-  the R language.  Learn how he uses code to do Financial Econometrics.
+  the R project.  Learn how he uses code to do Financial Econometrics.
 episode_number: 10
 feature_image: "/uploads/dirk2.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/hdrps7/10_-_Dirk_Eddelbuettel_-_Open_SourceCraft.mp3
 video_embed: https://www.youtube.com/embed/KiLMGMHFb_I
 notes_text: |-
   * [Debian Linux](https://www.debian.org/)
-  * [R language](https://www.r-project.org/)
+  * [R project](https://www.r-project.org/)
   * [Rcpp open source project](http://dirk.eddelbuettel.com/code/rcpp.html)
   * [Seamless R and C++ Integration with Rcpp](http://www.rcpp.org/book/)
   * [Rocker project](https://github.com/rocker-org/rocker)
@@ -21,7 +21,7 @@ Dirk has always felt that the propagation of Open Source was inevitable, so he l
 
 Using Open Source to solve problems appeals to him for two different reasons.  Firstly, if you download open source code to solve a problem and it doesn’t do exactly what you need, you can dive under the hood and add the functionality yourself.  Secondly, as a contributor it allows you to work with a group of extremely talented and gifted people from around the world.  As an added benefit working in open source in his spare time gave Dirk a hobby, allowing him to play with programming apart from his full time gigs.
 
-After using the S language, Octave, and Matlab to do econometrics he fell in love with the [R language](https://www.r-project.org/) in 2001, the open source software environment for statistical computing and graphics.  Since then he uses R a lot for his full time job and has been contributing back to the R open source project for the last 15 years.  He maintains many libraries for R including [Rcpp](http://dirk.eddelbuettel.com/code/rcpp.html), which makes it easy to interface C or C++ code in R packages.  He even wrote a book on the subject called [Seamless R and C++ Integration with Rcpp](http://www.rcpp.org/book/).
+After using the S language, Octave, and Matlab to do econometrics he fell in love with the [R Project](https://www.r-project.org/) in 2001, the open source software environment for statistical computing and graphics.  Since then he uses R a lot for his full time job and has been contributing back to the R open source project for the last 15 years.  He maintains many libraries for R including [Rcpp](http://dirk.eddelbuettel.com/code/rcpp.html), which makes it easy to interface C or C++ code in R packages.  He even wrote a book on the subject called [Seamless R and C++ Integration with Rcpp](http://www.rcpp.org/book/).
 
 > Dirk's an immensely experienced and talented open source developer.  For a newer / more junior person like myself this can be intimidating at first, but Dirk has always treated me as an equal and has been both generous with his time. 
 ><cite>-- Carl Boettiger, Rocker Project
