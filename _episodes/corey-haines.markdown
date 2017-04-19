@@ -1,12 +1,13 @@
 ---
 title: Corey Haines
 date: 2017-04-19 10:56:00 -04:00
-published: false
 excerpt: 'Corey tells us how he started a craftsmanship movement called Code Retreat,
   what he learned along the way, and how he made it sustainable so it continues on
   without him.  '
 episode_number: 12
 feature_image: "/uploads/corey.jpg"
+audio_embed: https://oscaudio.podbean.com/mf/play/c3fjs6/11_-_Corey_Haines_-_Open_SourceCraft.mp3
+video_embed: https://www.youtube.com/embed/rAoIbM8aPZY
 notes_text: |-
   * [Corey's Blog](http://blog.coreyhaines.com/)
   * [Pair Programming Tour - on InfoQ](https://www.infoq.com/news/2008/12/haines-pairing-tour)
