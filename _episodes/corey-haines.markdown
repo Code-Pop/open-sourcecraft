@@ -27,6 +27,9 @@ Over the next year as Corey traveled around for pair programming and conferences
 
 In the following years Corey continued to help others run Code Retreats, and helped run Global Day of Code Retreat.  Each year he encouraged others in the organization to take on more responsibility.  This allowed him in 2014 to step away and see the Cod Retreat community continue running without him, which he’s proud of.  
 
+> Corey is an incredible strategic thinker who is expert at figuring out an intended goal and working backward to reach it. He has a way of being able to break down tasks into manageable pieces and systematize. Guessing his propensity for being able to think this way is part of what makes him such a brilliant programmer!
+><cite>-- Jennifer Brandel, co-founder of Hearken
+
 Also in 2014 he published a book called [Understanding the 4 Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign).  The book covers what he learned while watching 1000’s of programmers solve the same problem during code retreats.  It contains the ideas he would end up explaining over and over again.  The 80 page book contains 40 pages of concrete examples.
 
 When I asked Corey about what advice he’d give programmers at the start of their career, he recommended that people just start building things.  Don’t worry about learning all the technologies, don’t worry about building something useful, and don’t worry about being good at what you’re doing.  The more you write code, the more you learn how to write better code.  I couldn’t agree more.
