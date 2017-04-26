@@ -26,9 +26,10 @@ Dr. Grossman is the Founder and Director of the [Open Commons Consortium](http:/
 Cancer is a disease of the genome caused by changes in the DNA, RNA, and proteins of a cell.  If researchers can identify the genomic alterations that arise in cancer, that could lead to improvements with diagnosis and treatment.  The [Genomic Data Commons](https://gdc.cancer.gov/) contains over 14,000 cases where solid tumors were biopsied, measurements were taken, and DNA was sequenced.  Per patient, this data easily can amount to half a terabyte.  Over 1,000 scientists and researchers access this data on the Genomic Data Commons every month, and it’s managed at the University of Chicago.
 
 Dr. Grossman suggested three ways to help to further the work of the Open Commons Consortium (OCC):
-If you’re familiar with DevOps/BioOps, the OCC could use help standardizing and improving the software and architecture of Data Commons.
-The existing Data Commons provides access to data through their APIs.  Dr. Grossman wants to find more developers to build applications using this data.
-You can become a citizen scientist and contribute your own data to the existing projects.
+
+1. If you’re familiar with DevOps/BioOps, the OCC could use help standardizing and improving the software and architecture of Data Commons.
+2. The existing Data Commons provides access to data through their APIs.  Dr. Grossman wants to find more developers to build applications using this data.
+3. You can become a citizen scientist and contribute your own data to the existing projects.
 
 When I asked Dr. Grossman about things he learned the hard way in his career, he mentioned two ideas.  The first was taking the long view and staying the course.  Not giving up on projects after two years, but being persistent for longer time periods.  The other was about not getting discouraged by your failures.  As he puts it: “You only need one or two successes to justify quite a few failures.”
 
