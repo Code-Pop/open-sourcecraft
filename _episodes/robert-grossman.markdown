@@ -3,7 +3,7 @@ title: Robert Grossman
 date: 2017-04-26 11:23:00 -04:00
 excerpt: As big data gets bigger, Dr. Robert Grossman is solving problems for researchers
   and scientists that need to comb through massive amounts of data.
-episode_number: 13
+episode_number: 12
 feature_image: "/uploads/robert2.jpg"
 audio_embed: https://oscaudio.podbean.com/mf/play/gb63gb/12_-_Robert_Grossman_-_Open_SourceCraft.mp3
 video_embed: https://www.youtube.com/embed/CgYBmDuc-MI
