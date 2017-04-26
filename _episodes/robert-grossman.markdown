@@ -16,7 +16,7 @@ In a world where it’s becoming more common to have extremely large datasets, o
 
 Three weeks ago I was lucky enough to sit down with Dr. Robert Grossman at the University of Chicago.  Dr. Grossman has been solving big data problems for the last 30 years. These days his major work involves creating Open Data Commons.  Let me explain.
 
-As a researcher or scientist, your first step often involves gathering data, or maybe downloading it.  But what do you do when the data you need to access is 5 Petabytes? That’s 1024 Terabytes, or a million gigabytes.   Stored on the Amazon Web Services it would easily cost you over $100,000 per month, which doesn’t include the computational power you’d need to parse and use the data, and if you’re talking about biomedical data you’d have to worry about security compliance as well.  
+As a researcher or scientist, your first step often involves gathering data, or maybe downloading it.  But what do you do when the data you need to access is 5 Petabytes? That’s 1024 Terabytes, or a million Gigabytes.   Stored on the Amazon Web Services it would easily cost you over $100,000 per month, which doesn’t include the computational power you’d need to parse and use the data, and if you’re talking about biomedical data you’d have to worry about security compliance as well.  
 
 Dr. Grossman is the Founder and Director of the [Open Commons Consortium](http://occ-data.org/), a not for profit that manages and operates cloud computing and data commons infrastructure to support scientific, medical, health care and environmental research.  With the support of the National Cancer Institute he’s helped create one of the biggest data commons (5 Petabytes), the Genomic Data Commons.  
 
