@@ -1,5 +1,5 @@
 ---
-title: Jeffrey Biles and Secrets to Success Teaching Online
+title: Jeffrey Biles and Secrets to Teaching Online
 date: 2017-06-26 19:39:00 -04:00
 excerpt: The key ingredients to teaching and making money online aren't always obvious.  Here
   are a few discoveries.
