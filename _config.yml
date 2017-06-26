@@ -42,14 +42,8 @@ follow:
   username: opensourcecraft
 subscribe:
   video:
-  - source: iTunes
-    url: 'https://itunes.apple.com/us/podcast/open-sourcecraft-video/id1205695484 '
-  - source: Stitcher
-    url: http://www.stitcher.com/s?fid=130884&refid=stpr
   - source: YouTube
     url: https://www.youtube.com/channel/UCa1zuotKU4Weuw_fLRnPv0A
-  - source: Rss
-    url: https://oscvideo.podbean.com/feed/
   audio:
   - source: iTunes
     url: https://itunes.apple.com/us/podcast/open-sourcecraft-audio/id1205703955
