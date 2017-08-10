@@ -14,7 +14,7 @@ notes_text: |-
   * [Turing School](https://www.turing.io/)
 ---
 
-4 years ago I visited a small Developer Bootcamp called Flat Iron School in New York City.  I could instantly tell that the instructor was amazingly talented.  The way he broke concepts down step by step and taught with enthusiasm made me wish he had been my computer science teacher in college.
+4 years ago I visited a small Developer Bootcamp called Flat Iron School in New York City.  I could instantly tell that the instructor, Avi Flombaum, was amazingly talented.  The way he broke concepts down step by step and taught with enthusiasm made me wish he had been my computer science teacher in college.
 
 Today Flat Iron School now graduates over 500 developers in person and another 600+ developers online per year.  I came to speak to the students in May, and while there Avi gave me some of his time.
 
