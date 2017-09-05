@@ -14,4 +14,4 @@ notes_text: |-
 
 If you don't like the idea of companies like Twitter taking your content and trying to monetize using ads, it may be time for you to learn about Mastodon, the free and open social network.  
 
-As on Twitter you submit Tweets, on Mastodon you submit Toots.  Be sure to watch to the end of the video where I have my kids guess at the kind of sounds coming out of a Mastodon.  
+As on Twitter you submit Tweets, on Mastodon you submit Toots.  Be sure to watch to the end of the video where I have my kids guess at the kind of sounds coming out of a Mastodon.
