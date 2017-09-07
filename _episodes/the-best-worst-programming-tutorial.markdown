@@ -15,4 +15,4 @@ Yes, I’ve seen some pretty horrible programming tutorials in my time.  That’
 
 If you have any other thoughts on creating the worst videos, please leave them in the Facebook or twitter comments.  
 
-Also, I'm working on a video showcasing actual best practices for creating programming tutorials.  If you want to be notified when that's out, please either [subscribe on YouTube](https://www.youtube.com/c/OpenSourceCraft) or [drop me your email](http://notify.codepop.com/best-programming-tutorials)..
+Also, I'm working on a video showcasing actual best practices for creating programming tutorials.  If you want to be notified when that's out, please either [subscribe on YouTube](https://www.youtube.com/c/OpenSourceCraft) or [drop me your email](http://notify.codepop.com/best-programming-tutorials)...
