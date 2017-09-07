@@ -3,7 +3,7 @@ title: The Best Worst Programming Tutorial
 date: 2017-09-07 12:31:00 -04:00
 excerpt: There are a lot of bad programming tutorials out there.  Learn how to create
   your own.
-episode_number: 19
+episode_number: 18
 feature_image: "/uploads/bestworst-2.jpg"
 video_embed: https://www.youtube.com/embed/BURBqSNnGdk
 notes_text: |-
