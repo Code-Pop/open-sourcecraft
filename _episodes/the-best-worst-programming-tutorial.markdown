@@ -1,6 +1,8 @@
 ---
 title: The Best Worst Programming Tutorial
 date: 2017-09-06 12:31:00 -04:00
+tags:
+- programming
 excerpt: There are a lot of bad programming tutorials out there.  Learn how to create
   your own.
 episode_number: 18
@@ -15,4 +17,4 @@ Yes, I’ve seen some pretty horrible programming tutorials in my time.  That’
 
 If you have any other thoughts on creating the worst videos, please leave them in the Facebook or twitter comments.  
 
-Also, I'm working on a video showcasing actual best practices for creating programming tutorials.  If you want to be notified when that's out, please either [subscribe on YouTube](https://www.youtube.com/c/OpenSourceCraft) or [drop me your email](http://notify.codepop.com/best-programming-tutorials)...
+Also, I'm working on a video showcasing actual best practices for creating programming tutorials.  If you want to be notified when that's out, please either [subscribe on YouTube](https://www.youtube.com/c/OpenSourceCraft) or [drop me your email](http://notify.codepop.com/best-programming-tutorials).
