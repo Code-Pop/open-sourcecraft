@@ -5,28 +5,28 @@ id: home
 
 {% assign sort_episodes = site.episodes | sort: 'episode_number' | reverse %}
 {% for episode in sort_episodes limit: 1 %}
-  <section class="feature-display">
-    <p class="site-title">{{ site.description }}</p>
-    <div class="feature-image">
-      <img src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
-    </div>
-    <div class="content-card _floating">
-      <small class="meta">Episode {{ episode.episode_number }}</small>
-      <h1 class="title">
-        <a class="link" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h1>
-      <p class="content">{{ episode.excerpt }}</p>
-      {% if episode.video_embed != '' %}
-      <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=video">
-        <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
-        Watch Now</a>
-      {% endif %}
-      {% if episode.audio_embed != '' %}
-      <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=audio">
-        <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
-        Listen Now</a>
-      {% endif %}
-    </div>
-  </section>
+    <section class="feature-display">
+      <p class="site-title">{{ site.description }}</p>
+      <div class="feature-image">
+        <img src="{{ episode.feature_image | prepend: site.baseurl }}" alt="{{ episode.title }}">
+      </div>
+      <div class="content-card _floating">
+        <small class="meta">Episode {{ episode.episode_number }}</small>
+        <h1 class="title">
+          <a class="link" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h1>
+        <p class="content">{{ episode.excerpt }}</p>
+        {% if episode.video_embed != '' %}
+        <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=video">
+          <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+          Watch Now</a>
+        {% endif %}
+        {% if episode.audio_embed != '' %}
+        <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=audio">
+          <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
+          Listen Now</a>
+        {% endif %}
+      </div>
+    </section>
 {% endfor %}
 
 <section class="_v-space">
