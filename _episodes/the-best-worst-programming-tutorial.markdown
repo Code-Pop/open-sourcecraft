@@ -11,7 +11,7 @@ notes_text: |-
   * [YouTube Video](https://www.youtube.com/watch?v=BURBqSNnGdk)
 ---
 
-Yes, I’ve seen some pretty horrible programming tutorials in my time.  That’s why last week I cam up with my top tips for creating the best worst programming tutorials.  Hope you enjoy it!
+Yes, I’ve seen some pretty horrible programming tutorials in my time.  That’s why last week I came up with my top tips for creating the best worst programming tutorials.  
 
 If you have any other thoughts on creating the worst videos, please leave them in the Facebook or twitter comments.  
 
