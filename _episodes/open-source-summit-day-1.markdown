@@ -4,7 +4,7 @@ date: 2017-09-19 09:55:00 -04:00
 excerpt: It was my first time to the Linux Foundation's Open Source Summit.
 episode_number: 19
 feature_image: "/uploads/Screenshot%202017-09-19%2009.18.00.jpg"
-video_embed: https://www.youtube.com/embed/oNem9bh6GiM
+video_embed: https://www.youtube.com/embed/3yl294IK1Vk
 notes_text: |-
   * [Chaoss - Community Health Analytics Open Source Software](https://chaos.community)
   * The [Core Infrastructure Initiative](https://www.CoreInfrastructure.org)
