@@ -5,9 +5,10 @@ layout: default
 <article class="article-container">
   <section id="mediaContainer" class="js-video-wrapper">
     {% if page.video_embed != '' and page.audio_embed == '' %}
-    <div class="frame-wrapper">
-      <iframe src="{{page.video_embed}}" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-    </div>
+      <div class="frame-wrapper">
+        <iframe src="{{page.video_embed}}" frameborder="0" allowfullscreen="allowfullscreen">
+        </iframe>
+      </div>
     {% else %}
       <div class="episode-display">
         {% if page.video_embed != '' and  page.audio_embed != '' %}

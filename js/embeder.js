@@ -54,8 +54,10 @@
         var frame = $(frame_wrapper).append(iframe);
 
         $(options.videoWrapper + '> .episode-display').hide();
-        $(options.videoWrapper).prepend(frame);
 
+        if (!$('.' + options.frameWrapper).length > 0) {
+          $(options.videoWrapper).prepend(frame);
+        }
 
         $('#mediaContainer').append(switcher('audio'));
 

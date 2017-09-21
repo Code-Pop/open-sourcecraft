@@ -18,18 +18,18 @@ id: home
           <a class="link" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h1>
         <p class="content">{{ episode.excerpt }}</p>
         {% if episode.video_embed != '' and episode.audio_embed == '' %}
-        <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}">
-          <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
-          Watch Now</a>
+          <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}">
+            <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+            Watch Now</a>
         {% else %}
-        <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=video">
-          <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
-          Watch Now</a>
+          <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=video">
+            <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+            Watch Now</a>
         {% endif %}
         {% if episode.audio_embed != '' %}
-        <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=audio">
-          <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
-          Listen Now</a>
+          <a class="button -primary _with-icon" href="{{ episode.url | prepend: site.baseurl }}?media=audio">
+            <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
+            Listen Now</a>
         {% endif %}
       </div>
     </section>
