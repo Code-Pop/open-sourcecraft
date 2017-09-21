@@ -43,10 +43,13 @@ id: home
     </form>
     <p class="label">Or</p>
     <nav class="form-social -inline">
-      <a class="item button -primary _with-icon" href="#subscribe_modal" data-toggle="modal">
+      <div class="item">
+        {% include youtube-subscribe.html %}
+      </div>
+      <!-- <a class="item button -primary _with-icon" href="#subscribe_modal" data-toggle="modal">
         <svg class="icon"><use xlink:href="#ico-subscribe"></svg>
         Subscribe Instantly
-      </a>
+      </a> -->
     </nav>
   </div>
   <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.min.js?v86b0a4c660f110085cbf49e83e53be98"></script>

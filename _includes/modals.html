@@ -35,6 +35,8 @@
     <h2 class="title">Subscribe To:</h2>
   </header>
   <section class="body">
+    <h3>Subscribe to our YouTube Channel</h3>
+    {% include youtube-subscribe.html %}
     <h3>Audio</h3>
     {% for subscribe in site.subscribe.audio %}
     <a class="button -primary _with-icon" href="{{subscribe.url}}">
@@ -42,6 +44,7 @@
       {{ subscribe.source }}
     </a>
     {% endfor %}
+    {% comment %}
     <h3>Video</h3>
     {% for subscribe in site.subscribe.video %}
     <a class="button -primary _with-icon" href="{{subscribe.url}}">
@@ -49,6 +52,7 @@
       {{ subscribe.source }}
     </a>
     {% endfor %}
+    {% endcomment %}
 
   </section>
 </div>
