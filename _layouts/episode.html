@@ -4,21 +4,33 @@ layout: default
 
 <article class="article-container">
   <section id="mediaContainer" class="js-video-wrapper">
-    <div class="episode-display">
-      <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
-      <div id="mediaContent" class="content-card _floating js-audio-wrapper">
-        {% if page.video_embed != '' %}
-        <a class="button -primary _with-icon" href="?media=video">
-          <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
-          Watch Now</a>
-        {% endif %}
-        {% if page.audio_embed != '' %}
-        <a class="button -primary _with-icon" href="?media=audio">
-          <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
-          Listen Now</a>
-        {% endif %}
-      </div>
+    {% if page.video_embed != '' and page.audio_embed == '' %}
+    <div class="frame-wrapper">
+      <iframe src="{{page.video_embed}}" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
     </div>
+    {% else %}
+      <div class="episode-display">
+        {% if page.video_embed != '' and  page.audio_embed != '' %}
+          <a href="?media=video">
+            <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
+          </a>
+        {% else %}
+          <img src="{{ page.feature_image | prepend: site.baseurl }}" alt="{{ page.title }}">
+        {% endif %}
+        <div id="mediaContent" class="content-card _floating js-audio-wrapper">
+          {% if page.video_embed != '' %}
+          <a class="button -primary _with-icon" href="?media=video">
+            <svg class="icon"><use xlink:href="#ico-play-sq"/></svg>
+            Watch Now</a>
+          {% endif %}
+          {% if page.audio_embed != '' %}
+          <a class="button -primary _with-icon" href="?media=audio">
+            <svg class="icon"><use xlink:href="#ico-musicnote-sq"/></svg>
+            Listen Now</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
   </section>
   <section class="episode-article">
     <small class="meta">Episode {{ page.episode_number }}</small>
