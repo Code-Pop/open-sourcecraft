@@ -1,8 +1,8 @@
 ---
 title: Open Source Summit Day 2
 date: 2017-09-21 09:51:00 -04:00
-excerpt: Kicked off by actor Joseph Gordon-Levitt, day 2 brought insight into how
-  Microsoft and Google are using Open Source.
+excerpt: 'Kicked off by actor Joseph Gordon-Levitt, day 2 brought insight into how
+  Microsoft and Google are using Open Source. '
 episode_number: 20
 feature_image: "/uploads/Screenshot%202017-09-20%2015.42.06.jpg"
 video_embed: https://www.youtube.com/embed/3_sgzF89YUk
