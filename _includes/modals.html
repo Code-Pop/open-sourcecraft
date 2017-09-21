@@ -35,8 +35,12 @@
     <h2 class="title">Subscribe To:</h2>
   </header>
   <section class="body">
-    <h3>Subscribe to our YouTube Channel</h3>
-    {% include youtube-subscribe.html %}
+      {% include youtube-subscribe.html %}
+      {% for subscribe in site.subscribe.video %}
+        <a class="button -primary _small" href="{{ subscribe.url }}">Visit our channel</a>
+      {% endfor %}
+
+
     <h3>Audio</h3>
     {% for subscribe in site.subscribe.audio %}
     <a class="button -primary _with-icon" href="{{subscribe.url}}">

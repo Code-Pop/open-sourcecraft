@@ -47,11 +47,14 @@ id: home
       </div>
       <input type="hidden" name="ml-submit" value="1" />
     </form>
-    <p class="label">Or</p>
+    <p class="label">OR</p>
     <nav class="form-social -inline">
-      <div class="item">
+      <div class="item" style="margin-bottom: -10px;">
         {% include youtube-subscribe.html %}
       </div>
+      {% for subscribe in site.subscribe.video %}
+        <a class="item button -primary _small" href="{{ subscribe.url }}">Visit our channel</a>
+      {% endfor %}
       <!-- <a class="item button -primary _with-icon" href="#subscribe_modal" data-toggle="modal">
         <svg class="icon"><use xlink:href="#ico-subscribe"></svg>
         Subscribe Instantly

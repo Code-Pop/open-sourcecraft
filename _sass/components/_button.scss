@@ -45,6 +45,9 @@
       border: solid 1px $brand-color-primary;
     }
   }
+  &._small {
+    font-size: 0.8em;
+  }
   &._with-icon {
     padding-left: 0;
     > .icon {
