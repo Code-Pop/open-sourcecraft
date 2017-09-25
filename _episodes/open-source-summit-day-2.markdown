@@ -18,4 +18,4 @@ notes_text: |-
 
 The actor and founder of Hit Record Joseph Gordon-Levitt kicked off the second day of the Open Source Summit.  His open creative community, HitRecord, allows for the evolution of open source film projects.  We learned how a company is using BlockChain to fight poverty while keeping plastic out of the ocean, and about how Microsoft and Google are now more deliberate about how they create a culture of openness inside and outside their companies.  
 
-Watch as Jason Hibbets and I give you a quick summary of day 2, and I manage to understand what TensorFlow is along the way.  
+Watch as Jason Hibbets and I give you a quick summary of day 2, and I manage to understand what TensorFlow is along the way. 
