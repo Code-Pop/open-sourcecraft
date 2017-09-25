@@ -13,4 +13,4 @@ notes_text: |-
   * [Hooked Book](https://www.nirandfar.com/hooked)
 ---
 
-After a bunch of keynotes centered around the Cloud Native Computing Foundation, day 3 talks were all about building community, the role of certifications, and some astounding stats on the adoption of both Docker and Orchestration tools like Kubernetes. Oh, and Puppy Pawlooza. 
+After a bunch of keynotes centered around the Cloud Native Computing Foundation, day 3 talks were all about building community, the role of certifications, and some astounding stats on the adoption of both Docker and Orchestration tools like Kubernetes. Oh, and Puppy Pawlooza.
