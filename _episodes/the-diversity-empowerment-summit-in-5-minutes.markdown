@@ -14,4 +14,4 @@ notes_text: |
   * Marina Zhurakhinskaya from Red Hat taught us about [Outreachy](https://www.outreachy.org/), which provides 3-month internships for people from groups traditionally underrepresented in tech.
 ---
 
-On the final day of the Linux Foundation's Open Source Summit Angela Brown (who is co-hosting this video with me) decided to host a full day of talks on increasing diversity, inclusion, and empowerment in the Open Source community.  It was inspiring and empowering.
+On the final day of the Linux Foundation's Open Source Summit Angela Brown (who is co-hosting this video with me) decided to host a full day of talks on increasing diversity, inclusion, and empowerment in the Open Source community.  It was inspiring and empowering. 
