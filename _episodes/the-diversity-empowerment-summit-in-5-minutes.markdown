@@ -3,6 +3,7 @@ title: The Diversity Empowerment Summit in 5 minutes
 date: 2017-09-27 19:23:00 -04:00
 excerpt: My summary of a day of talks on increasing diversity, inclusion, and empowerment
   in the open source community.
+episode_number: 22
 feature_image: "/uploads/pablo%20(10).png"
 video_embed: https://www.youtube.com/embed/cH_869SdSTk
 notes_text: |
