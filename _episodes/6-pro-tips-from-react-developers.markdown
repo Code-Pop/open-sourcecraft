@@ -6,7 +6,7 @@ categories:
 tags:
 - React
 excerpt: Learn from the success—and failures—of React developers who’ve learned valuable
-  lessons about the the React framework.
+  lessons about the React framework.
 episode_number: 23
 feature_image: "/uploads/facebook.jpg"
 video_embed: https://www.youtube.com/embed/xa-_FIy2NgE
