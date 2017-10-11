@@ -7,7 +7,7 @@ tags:
 excerpt: Learn why you should be using Bulma, a modern CSS framework built on Flexbox.
 episode_number: 24
 feature_image: "/uploads/Bulma_Why-f5ed1f.jpg"
-video_embed: https://youtu.be/bCTdyfHfUaI
+video_embed: https://www.youtube.com/embed/bCTdyfHfUaI
 notes_text: |-
   Code along as we build a Bulma project from scratch in our [Getting Started video](https://youtu.be/MchBPICewgs).
 
